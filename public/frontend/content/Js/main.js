@@ -42,10 +42,10 @@ $('.res_checkout-input').daterangepicker({
 
 // owl banner
 $('.banner-slider').owlCarousel({
-	items: 1,
-	autoplay: true,
-	autoplayTimeout: 3000,
-	autoplaySpeed: 800,
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 800,
     loop: true,
     nav: false,
     dots: false,
@@ -73,11 +73,30 @@ $('.carousel_lod--list').owlCarousel({
     }
 })
 
+$('.carousel_lod--list1').owlCarousel({
+    loop: true,
+    nav: true,
+    dots: false,
+    margin: 20,
+    navText: ["<i class='fal fa-angle-left'></i>", "<i class='fal fa-angle-right'></i>"],
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+        }
+    }
+})
+
 $('.service-slide').owlCarousel({
     loop: true,
-	autoplay: true,
-	autoplayTimeout: 3000,
-	autoplaySpeed: 800,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplaySpeed: 800,
     margin: 15,
     nav: false,
     dots: false,
@@ -143,14 +162,14 @@ $('.carousel_two-n').owlCarousel({
 
 $('.slider-roomSingle').owlCarousel({
     items: 1,
-	autoplay: true,
-	autoplaySpeed: 800,
-	autoplayTimeout: 3000,
+    autoplay: true,
+    autoplaySpeed: 800,
+    autoplayTimeout: 3000,
     loop: true,
     center: true,
     margin: 10,
     dots: false,
-   	nav: false,
+    nav: false,
     callbacks: true,
     URLhashListener: true,
     autoplayHoverPause: true,
@@ -163,13 +182,13 @@ $('.slider-thumb').owlCarousel({
     margin: 10,
     nav: true,
     dots: false,
-	responsiveClass: true,
+    responsiveClass: true,
     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
     responsive: {
         0: {
             items: 2
         },
-		 420: {
+         420: {
             items: 3
         },
         1000: {
@@ -193,6 +212,6 @@ $('.check-out-input').daterangepicker({
 });
 
 $(document).ready(function() {
-	$('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip();
 });
 

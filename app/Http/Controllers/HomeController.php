@@ -86,10 +86,18 @@ class HomeController extends Controller
             ->select('category_translations.*')
             ->where('slug', $slug)
             ->where('locale', $locale)->first();
-        $post = PostTranslation::where('category_tras_id', $data->id)
+        // cat_array
+        $cat_array = [$data["id"]];
+        $cates = CategoryTranslation::where('parent', $data["id"])->get();
+        foreach ($cates as $key => $cate) {
+            $cat_array[] = $cate->id;
+        }
+        // cat_array
+        $post = PostTranslation::whereIn('category_tras_id', $cat_array)
             ->where('locale', $locale)
             ->orderBy('id', 'desc')
             ->get();
+        
         if ($data->category->sort_by == 'Product') {
             return view('pages.category', compact(
                 'category',

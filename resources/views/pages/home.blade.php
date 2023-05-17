@@ -308,10 +308,10 @@
                         <i class="fa fa-graduation-cap"></i>
                     </div>
                     <div class="item_text">
-                        <h3 class="color_fff">Sứ mệnh</h3>
+                        <h3 class="color_fff">CHẤT LƯỢNG ĐÀO TẠO CAO</h3>
                         <span></span>
                         <div class="item_text-price color_fff">
-                            <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
+                            <p>BLA là một trong số ít các trung tâm có thể đào tạo từ A1 tới trình độ cao B2. Với đội ngũ giáo viên nhiều kinh nghiệm cùng hệ thống giáo trình hiện đại các học viên của BLA khi ra trường luôn có chất lượng thực tế cao hơn nhiều so với mặt bằng chung của cả nước ở cùng trình độ học</p>
                         </div>
                     </div>
                 </div>
@@ -320,10 +320,10 @@
                         <i class='fab fa-pagelines'></i>
                     </div>
                     <div class="item_text">
-                        <h3 class="color_fff">Sứ mệnh</h3>
+                        <h3 class="color_fff">PHƯƠNG PHÁP ĐỘC QUYỀN P4F</h3>
                         <span></span>
                         <div class="item_text-price color_fff">
-                            <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
+                            <p>Phương pháp dạy ngoại ngữ P4F của BLA (ĐỘC QUYỀN) sẽ giúp học viên yêu thích việc học tiếng Đức và học hiệu quả hơn so với các phương pháp truyền thống. Phương pháp này còn đặc biệt hiệu quả dành cho các bạn chưa từng học ngoại ngữ hoặc sợ học ngoại ngữ</p>
                         </div>
                     </div>
                 </div>
@@ -332,10 +332,10 @@
                         <i class="fa fa-users"></i>
                     </div>
                     <div class="item_text">
-                        <h3 class="color_fff">Sứ mệnh</h3>
+                        <h3 class="color_fff">NHIỀU HỌC VIÊN DU HỌC THÀNH CÔNG</h3>
                         <span></span>
                         <div class="item_text-price color_fff">
-                            <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
+                            <p>Với kinh nghiệm nhiều năm của mình, đội ngũ tư vấn viên của BLA tại Việt Nam cũng như cộng tác viên tại CHLB Đức đã giúp nhiều học viên du học thành công. Với BLA mục tiêu không phải là đưa được các học viên sang Đức mà là giúp từng học viên du học thành công và chắc chắn</p>
                         </div>
                     </div>
                 </div>
@@ -343,7 +343,95 @@
         </div>
     </div>
 
-    
+    <div class="main_lodging">
+        <div class="carousel_lod">
+            <div class="container car_container">
+                <div class="news_text">
+                    <h2 class="home-title">CÂU CHUYỆN THÀNH CÔNG</h2>
+                    <div class="heading__line"></div>
+                </div>
+                <div class="carousel_lod--list1 owl-carousel custom_1581866095395">
+                    
+                    <div class="iteam_row">
+                        <div class="item_img">
+                            <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
+                            <div class="author">
+                                <h4>Lê Bích Phượng</h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p>Du học sinh tại đức</p>
+                            </div>
+                        </div>
+                        <div class="item_text">
+                            <h3>Đáng tin cậy và tin tưởng</h3>
+                            <span></span>
+                            <div class="item_text-price">
+                                <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức. Ngoài ra, giáo viên và các em học sinh luôn thân thiện và dễ thương. Tôi cũng thích trò chơi “ma sói” cùng nhau trong thời gian ra chơi của buổi học. Và tôi hy vọng BLA sẽ phát triển mạnh mẽ hơn trong tương lai.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam_row">
+                        <div class="item_img">
+                            <img src="https://bla.vn/wp-content/uploads/2020/03/Diep-120x120.png">
+                            <div class="author">
+                                <h4>Diệp Dịu Dàng</h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p>Học viên tiếng Đức</p>
+                            </div>
+                        </div>
+                        <div class="item_text">
+                            <h3>Sống, học tập và làm việc như người Đức</h3>
+                            <span></span>
+                            <div class="item_text-price">
+                                <p>Em cũng đã học tiếng Đức ở 1 vài nơi, sau đó mới đến với BLA. Và em đã ước giá như mình tìm thấy BLA sớm hơn. Các thầy cô đã đưa em đến vs nước Đức mà không chỉ riêng tiếng Đức. 1 nước Đức tiến bộ, phát triển nhanh cũng thật gần. Cái mà em thật sự học đc ở BLA là cách sống tích cực, cách học và làm việc hiệu quả nhất trên nước Đức, cách mà các thầy cô truyền nhiệt huyết tuổi trẻ cho thế hệ theo sau.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
+        <div class="container news_container">
+            <div class="row home-about">
+                <div class="col-lg-6 col-md-6">
+                    <div class="item_img">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="color_fff">CHẤT LƯỢNG ĐÀO TẠO CAO</h3>
+                        <span></span>
+                        <div class="item_text-price color_fff">
+                            <p>BLA là một trong số ít các trung tâm có thể đào tạo từ A1 tới trình độ cao B2. Với đội ngũ giáo viên nhiều kinh nghiệm cùng hệ thống giáo trình hiện đại các học viên của BLA khi ra trường luôn có chất lượng thực tế cao hơn nhiều so với mặt bằng chung của cả nước ở cùng trình độ học</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="item_img">
+                        <i class='fab fa-pagelines'></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="color_fff">PHƯƠNG PHÁP ĐỘC QUYỀN P4F</h3>
+                        <span></span>
+                        <div class="item_text-price color_fff">
+                            <p>Phương pháp dạy ngoại ngữ P4F của BLA (ĐỘC QUYỀN) sẽ giúp học viên yêu thích việc học tiếng Đức và học hiệu quả hơn so với các phương pháp truyền thống. Phương pháp này còn đặc biệt hiệu quả dành cho các bạn chưa từng học ngoại ngữ hoặc sợ học ngoại ngữ</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     
 </section>
 
