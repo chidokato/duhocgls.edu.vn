@@ -77,37 +77,36 @@
                     @endforeach
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-
-            <div class="reservation_hotel">
-                <div class="reservation_title">
-                    <h5 class="reservation_title-name">
-                        Tại sao chọn MINH PHÁT
-                    </h5>
+                    <div class="reservation_hotel">
+                        <div class="reservation_title">
+                            <h5 class="reservation_title-name">
+                                Tại sao chọn MINH PHÁT
+                            </h5>
+                        </div>
+                        <div class="hotel_content">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-gavel"></i> Transparency – No hidden fees
+                                </li>
+                                <li>
+                                    <i class="fa fa-plane"></i> Complementary Airport pickup
+                                </li>
+                                <li>
+                                    <i class="fas fa-dollar-sign"></i> Value for money
+                                </li>
+                                <li>
+                                    <i class="fa fa-bed"></i> Luxurious rooms for your comfort
+                                </li>
+                                <li>
+                                    <i class="fa fa-user-secret"></i> Easy refund on online booking
+                                </li>
+                                <li>
+                                    <i class="fab fa-tripadvisor"></i> Award-winning hotel on TripAdviosr
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="hotel_content">
-                    <ul>
-                        <li>
-                            <i class="fa fa-gavel"></i> Transparency – No hidden fees
-                        </li>
-                        <li>
-                            <i class="fa fa-plane"></i> Complementary Airport pickup
-                        </li>
-                        <li>
-                            <i class="fas fa-dollar-sign"></i> Value for money
-                        </li>
-                        <li>
-                            <i class="fa fa-bed"></i> Luxurious rooms for your comfort
-                        </li>
-                        <li>
-                            <i class="fa fa-user-secret"></i> Easy refund on online booking
-                        </li>
-                        <li>
-                            <i class="fab fa-tripadvisor"></i> Award-winning hotel on TripAdviosr
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
         </form></div>
     </div>
 
