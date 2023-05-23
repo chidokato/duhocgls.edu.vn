@@ -133,10 +133,12 @@
   .menu-item {
     display: block;
     margin: 0 auto;
+    border-bottom: 1px solid #fff;
   }
   .menu-link {
     justify-content: space-between;
-    padding: 0.5rem 1.25rem;
+    padding: 1.5rem 1.25rem;
+    background-color: #c7b39a;
   }
 }
 

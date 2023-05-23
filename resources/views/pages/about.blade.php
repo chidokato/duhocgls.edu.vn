@@ -6,213 +6,216 @@
 @section('url'){{asset('')}}@endsection
 
 @section('css')
-<!--Link css page index-->
-<link href="frontend/content/Css/main.css" rel="stylesheet" />
-<link href="frontend/content/Css/responsive.css" rel="stylesheet" />
-<link href="frontend/content/Css/room.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-<!-- Vendor CSS Files cdn -->
-<link rel="stylesheet" href="frontend/Files/plugins/bootstrap-4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="frontend/Files/fonts/fontawesome-pro-5.15.2/css/all.min.css">
-<!-- Plugin css local-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
-<link rel="stylesheet" href="frontend/Files/plugins/owlcarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="frontend/Files/plugins/owlcarousel/owl.theme.default.min.css">
-<link rel="stylesheet" href="frontend/Files/plugins/slick/slick.css">
-<link rel="stylesheet" href="frontend/Files/plugins/slick/slick-theme.css">
-<link rel="stylesheet" href="frontend/Files/plugins/daterangepicker/daterangepicker.css">
-<link href="frontend/content/Css/room.css" rel="stylesheet" />
-<link href="frontend/content/Css/room-single.css" rel="stylesheet" />
-<link href="frontend/Plugins/Validate/jquery-validation-1.13.1/jquery-validation.css" rel="stylesheet" />
-<link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/menu.css">
 <link href="frontend/content/Css/page-about.css" rel="stylesheet" />
+<link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/home-custom.css">
 @endsection
 @section('content')
 
-<section class="banner">
-    <div class="header_banner">
-        <img src="frontend/files/images/bn/slide-01.jpg" alt="No picture">
-        <div class="header_bgr"></div>
-    </div>
-    
-</section>
-
+@include('layout.slider')
 
 <section class="main">
-    <div class="main_space"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 xol-xs-12">
-                <div class="page_subtitle">CHÚNG TÔI CHĂM SÓC MỌI NGƯỜI</div>
-                <div class="page_title">
-                    <h2 class="page_title-name">
-                        Chào mừng đến với Luxe Hotel
-                    </h2>
+    <div class="main_hotel f8f8f8">
+        <div class="container hotel_container">
+            <div class="row hotel_row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hotel_col">
+                    <div class="youtube" style="background-image: url(frontend/imgs/img1.jpg);background-repeat: no-repeat;">
+                        <div class="youtube_overlay">
+                            <div class="youtube_text">
+                                <div class="youtube_icon">
+                                    <a href="https://youtu.be/p0dzDxGzRf0" data-fancybox=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="page_text">
-                    <p>
-                        </p><div style="text-align: justify;">Luxe Hotel cung cấp đầy đủ những dịch vụ tiện ích, có thủ tục kiểm tra nhanh chóng, wi-fi công cộng miễn phí phủ sóng toàn bộ khách sạn… Điểm nổi bật của Luxe Hotel là nhà hàng cung cấp được cả ẩm thực phương Đông và phương Tây được xây dựng và phục vụ trên tầng cao nhất. Quý khách có thể vừa thưởng thức bữa tối ngon miệng vừa ngắm bầu trời đầy sao và thành phố khi về đêm. Ngoài ra, du khách có thể tận hưởng những dịch vụ khác như spa, phòng gym ngay trong khu vực khách sạn. Thật tuyệt vời khi mà, những thới quen rèn luyện sức khỏe, chăm sóc bản thân của bạn vẫn được duy trì đều đặn trong những kỳ nghỉ dài ngày.<br>
-<br>
-Luxe Hotel tự tin mang đến cho bạn sự thăng hoa về cảm xúc, những trải nghiệm tốt nhất, tuyệt vời nhất trong kỳ nghỉ dưỡng của bạn. Hãy đến với chúng tôi, chúng tôi đảm bảo rằng bạn sẽ không hối tiếc.</div>
 
-                    <p></p>
-                    <p>
-                        <b>
-                            <i></i>
-                        </b>
-                    </p>
-                </div>
-               
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 xol-xs-12">
-                <div class="page_col-right">
-                    <div class="page_col-right-img">
-                        <img src="frontend/files/images/ab.jpg" alt="No picture">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main_space"></div>
-    <div class="box-list">
-
-            <div class="box-item">
-                <div class="box-img"><img alt="dua-don-san-bay" src="frontend/files/images/dv/Nhu-cau-su-dung-xe-don-nguoi-ra-san-bay-tang-cao.jpg"></div>
-                <div class="box-content">
-
-                    <h3 class="box-title">Đưa đón sân bay</h3>
-                    <div class="box-text"><span style="color:rgb(32, 33, 36)">Chúng tôi sẽ đón từ sân bay trong khi bạn thoải mái trên chuyến đi của mình.</span></div>
-                    <div class="hotel_infomation-button">
-                        <a href="/FormBook">
-                            <button>
-                                Đặt phòng ngay
-                            </button>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-            <div class="box-item">
-                <div class="box-img"><img alt="bua-sang-mien-phi" src="frontend/files/images/dv/bua-sang-1.jpg"></div>
-                <div class="box-content">
-
-                    <h3 class="box-title">Bữa sáng miễn phí</h3>
-                    <div class="box-text">Đừng tiêu một xu cho bữa sáng.&nbsp;<span style="color:rgb(32, 33, 36)">Đó hoàn toàn là do chúng tôi.</span></div>
-                    <div class="hotel_infomation-button">
-                        <a href="/FormBook">
-                            <button>
-                                Đặt phòng ngay
-                            </button>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-            <div class="box-item">
-                <div class="box-img"><img alt="huong-dan-vien-du-lich-thanh-pho" src="frontend/files/images/dv/tim-hieu-thu-nhap-cua-huong-dan-vien-du-lich-quoc-te-03.jpg"></div>
-                <div class="box-content">
-
-                    <h3 class="box-title">Hướng dẫn viên du lịch thành phố</h3>
-                    <div class="box-text"><span style="color:rgb(32, 33, 36)">Khám phá thành phố với hướng dẫn viên du lịch trong nhà của chúng tôi. </span><span style="color:rgb(32, 33, 36)">Chúng tôi đã trở lại của bạn.</span></div>
-                    <div class="hotel_infomation-button">
-                        <a href="/FormBook">
-                            <button>
-                                Đặt phòng ngay
-                            </button>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-            <div class="box-item">
-                <div class="box-img"><img alt="tiec-bbq-bai-bien" src="frontend/files/images/dv/Corallo-FIRE-set-up-e1554377061139.jpg"></div>
-                <div class="box-content">
-
-                    <h3 class="box-title">Tiệc BBQ bãi biển</h3>
-                    <div class="box-text"><span style="color:rgb(32, 33, 36)">Trở lại bãi biển và nấu các công thức nấu ăn từ masterchef của chúng tôi.</span></div>
-                    <div class="hotel_infomation-button">
-                        <a href="/FormBook">
-                            <button>
-                                Đặt phòng ngay
-                            </button>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-    </div>
-
-    <div class="main_space"></div>
-    <div class="container">
-        <div class="hotel_icon">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="icon_content">
-                        <div class="icon_show">
-                            <i class="fas fa-key"></i>
-                        </div>
-                        <div class="icon_number">
-                            300
-                        </div>
-                        <div class="icon_text">
-                            Phòng 5 sao
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="icon_content">
-                        <div class="icon_show">
-                            <i class="fas fa-medal"></i>
-                        </div>
-                        <div class="icon_number">
-                            3
-                        </div>
-                        <div class="icon_text">
-                            Giải thưởng
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="icon_content">
-                        <div class="icon_show">
-                            <i class="fas fa-fire"></i>
-                        </div>
-                        <div class="icon_number">
-                            100
-                        </div>
-                        <div class="icon_text">
-                            Tiệc BBQ
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="icon_content">
-                        <div class="icon_show">
-                            <i class="fas fa-cocktail"></i>
-                        </div>
-                        <div class="icon_number">
-                            40K
-                        </div>
-                        <div class="icon_text">
-                            Quản lí sự kiện
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hotel_col">
+                    <div class="hotel_text">
+                        <div class="text_name">
+                            <h1 style="font-size: 1.7rem">
+                                VỀ CHÚNG TÔI
+                            </h1>
+                            <div class="text">
+                                <div style="text-align:justify">
+                                    <p>Tập đoàn giáo dục BLA được thành lập và phát triển bởi các tiến sỹ, thạc sỹ từ Đức và các nước châu Âu trở về Việt Nam từ năm 2017</p>
+                                    <p>BLA cung cấp các sản phẩm dịch vụ liên quan tới đào tạo tiếng Đức và Tư vấn du học Đức bao gồm</p>
+                                    <p>– Đào tạo tiếng Đức;</p>
+                                    <p>– Tư vấn du học Đức: Du học đại học, Du học nghề hưởng lương;</p>
+                                    <p>– Đào tạo kỹ năng làm việc, văn hoá làm việc tiêu chuẩn Đức.</p>
+                                    <p>Năm 2020, BLA vinh hạnh là một trong những đơn vị tiêu biểu vinh danh trong chương trình kỷ niệm 45 quan hệ Việt – Đức</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="main_space border-bottom"></div>
-    <div class="main_space"></div>
-    <div class="book-room-text">
-        <div class="container">
-            <p style="width: 70%;text-align: center;margin: 0 auto;">Những kỷ niệm có nghĩa là để được xem lại. Chúng tôi mời bạn trải nghiệm The Ritz-Carlton, Đảo Amelia qua con mắt của những người bạn đồng hành và chia sẻ những khoảnh khắc khó quên trong kỳ nghỉ của chính bạn.</p>
-            <div class="button_book-room">
-                <a href="#">
-                    <button>Đặt phòng</button>
-                </a>
+    <div class="main_lodging">
+        <div class="carousel_lod">
+            <div class="container car_container">
+                <div class="carousel_lod--list owl-carousel">
+                    <div class="home-about">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="">
+                                <div class="item_img">
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="item_text">
+                                    <h3>Sứ mệnh</h3>
+                                    <span></span>
+                                    <div class="item_text-price">
+                                        <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-about">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="">
+                                <div class="item_img">
+                                    <i class="fa fa-road"></i>
+                                </div>
+                                <div class="item_text">
+                                    <h3>TẦM NHÌN</h3>
+                                    <span></span>
+                                    <div class="item_text-price">
+                                        <p>Trở thành Tập Đoàn SỐ 1 VIỆT NAM về du học và làm việc tại Đức. Giúp 1000 bạn mỗi năm sang Đức thành công trước năm 2025</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-about">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="">
+                                <div class="item_img">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="item_text">
+                                    <h3>GIÁ TRỊ CỐT LÕI</h3>
+                                    <span></span>
+                                    <div class="item_text-price">
+                                        <p>Giá trị cốt lõi của BLA đó chính là UY TÍN. Chúng tôi đã, đang và sẽ hàng ngày vun đắp thêm uy tín của mình qua chất lượng dịch vụ đào tạo và tư vấn giáo dục của mình</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="main_space"></div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.808719195436!2d105.77227431467809!3d21.040338292759436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c563dba4eb%3A0xc3161d468d77f9aa!2zSUlUIFRFQ0hDT00gLSBDw7RuZyB0eSBUTkhIIEPDtG5nIG5naOG7hyB2w6AgdHJ1eeG7gW4gdGjDtG5nIElJVA!5e0!3m2!1svi!2s!4v1663151146793!5m2!1svi!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
+        <div class="container news_container">
+            <div class="inner_text">
+                <h2 class="home-title">CHỌN BLA ĐỂ XÂY DỰNG TƯƠNG LAI TƯƠI SÁNG, TẠI SAO?</h2>
+                <div class="heading__line"></div>
+            </div>
+            <div class="row home-about">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item_img">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="color_fff">CHẤT LƯỢNG ĐÀO TẠO CAO</h3>
+                        <span></span>
+                        <div class="item_text-price color_fff">
+                            <p>BLA là một trong số ít các trung tâm có thể đào tạo từ A1 tới trình độ cao B2. Với đội ngũ giáo viên nhiều kinh nghiệm cùng hệ thống giáo trình hiện đại các học viên của BLA khi ra trường luôn có chất lượng thực tế cao hơn nhiều so với mặt bằng chung của cả nước ở cùng trình độ học</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="item_img">
+                        <i class='fab fa-pagelines'></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="color_fff">PHƯƠNG PHÁP ĐỘC QUYỀN P4F</h3>
+                        <span></span>
+                        <div class="item_text-price color_fff">
+                            <p>Phương pháp dạy ngoại ngữ P4F của BLA (ĐỘC QUYỀN) sẽ giúp học viên yêu thích việc học tiếng Đức và học hiệu quả hơn so với các phương pháp truyền thống. Phương pháp này còn đặc biệt hiệu quả dành cho các bạn chưa từng học ngoại ngữ hoặc sợ học ngoại ngữ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="item_img">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="item_text">
+                        <h3 class="color_fff">NHIỀU HỌC VIÊN DU HỌC THÀNH CÔNG</h3>
+                        <span></span>
+                        <div class="item_text-price color_fff">
+                            <p>Với kinh nghiệm nhiều năm của mình, đội ngũ tư vấn viên của BLA tại Việt Nam cũng như cộng tác viên tại CHLB Đức đã giúp nhiều học viên du học thành công. Với BLA mục tiêu không phải là đưa được các học viên sang Đức mà là giúp từng học viên du học thành công và chắc chắn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="main_lodging">
+        <div class="carousel_lod">
+            <div class="container car_container">
+                <div class="news_text">
+                    <h2 class="home-title">CÂU CHUYỆN THÀNH CÔNG</h2>
+                    <div class="heading__line"></div>
+                </div>
+                <div class="carousel_lod--list1 owl-carousel custom_1581866095395">
+                    
+                    <div class="iteam_row">
+                        <div class="item_img">
+                            <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
+                            <div class="author">
+                                <h4>Lê Bích Phượng</h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p>Du học sinh tại đức</p>
+                            </div>
+                        </div>
+                        <div class="item_text">
+                            <h3>Đáng tin cậy và tin tưởng</h3>
+                            <span></span>
+                            <div class="item_text-price">
+                                <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức. Ngoài ra, giáo viên và các em học sinh luôn thân thiện và dễ thương. Tôi cũng thích trò chơi “ma sói” cùng nhau trong thời gian ra chơi của buổi học. Và tôi hy vọng BLA sẽ phát triển mạnh mẽ hơn trong tương lai.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam_row">
+                        <div class="item_img">
+                            <img src="https://bla.vn/wp-content/uploads/2020/03/Diep-120x120.png">
+                            <div class="author">
+                                <h4>Diệp Dịu Dàng</h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p>Học viên tiếng Đức</p>
+                            </div>
+                        </div>
+                        <div class="item_text">
+                            <h3>Sống, học tập và làm việc như người Đức</h3>
+                            <span></span>
+                            <div class="item_text-price">
+                                <p>Em cũng đã học tiếng Đức ở 1 vài nơi, sau đó mới đến với BLA. Và em đã ước giá như mình tìm thấy BLA sớm hơn. Các thầy cô đã đưa em đến vs nước Đức mà không chỉ riêng tiếng Đức. 1 nước Đức tiến bộ, phát triển nhanh cũng thật gần. Cái mà em thật sự học đc ở BLA là cách sống tích cực, cách học và làm việc hiệu quả nhất trên nước Đức, cách mà các thầy cô truyền nhiệt huyết tuổi trẻ cho thế hệ theo sau.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
 </section>
 
 

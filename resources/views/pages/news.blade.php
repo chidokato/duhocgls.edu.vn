@@ -37,7 +37,7 @@
 <section class="main">
     <div class="container row_container">
         <div class="row">
-            <div class="col-8 col-md-8 col-lg-8">
+            <div class="col-12 col-md-12 col-lg-8">
                 <div class="header-page">
                     <h1><span>{{$data->name}}</span></h1>
                 </div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-4">
                 <div class="reservation_hotel">
                     <div class="reservation_title">
                         <h5 class="reservation_title-name">

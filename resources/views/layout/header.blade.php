@@ -1,11 +1,6 @@
 <?php use App\Models\CategoryTranslation; ?>
 <div class="header_contact">
         <div class="container container_contact">
-            <div class="header_logo">
-                <div class="logo">
-                  <a href="{{asset('')}}" class="brand logo"><img src="data/home/{{$setting->img}}"></a>
-                </div>
-            </div>
             <div class="languge">
               <img src="frontend/files/images/language.png">
               <a href="lang/vi"><img src="frontend/files/images/vietnamese_icon.png"> VI</a>
@@ -20,39 +15,33 @@
 </div>
 <section class="header">
     <div class="header_nav">
-        <div class="container nav_container">
-            <header class="header" id="header">
-               <section class="wrapper">
-                  <div class="burger" id="burger"> 
-                     <span class="burger-line"></span>
-                     <span class="burger-line"></span>
-                     <span class="burger-line"></span>
-                  </div>
-                  <span class="overlay"></span>
-                  <nav class="navbar" id="navbar">
-                     <ul class="menu" id="menu">
-                        <li class="menu-item"><a href="{{asset('')}}" class="menu-link"><i class="fa fa-home"></i></a></li>
-                        @foreach($category as $val)
-                        <?php $submenu = CategoryTranslation::where('parent', $val->id)->get(); ?>
-                        @if(count($submenu) > 0)
-                        <li class="menu-item menu-dropdown">
-                          <a href="{{asset('')}}{{$val->category->slug}}"><span class="menu-link" data-toggle="submenu">{{$val->name}} <i style="font-size: 1rem; margin-top: 2px; margin-left: 3px;" class='fas fa-angle-down'></i></span></a>
-                           <ul class="submenu">
-                            @foreach($submenu as $subme)
-                              <li class="submenu-item"><a href="{{asset('')}}{{$subme->category->slug}}" class="submenu-link">{{$subme->name}}</a></li>
-                              @endforeach
-                           </ul>
-                        </li>
-                        @else
-                        <li class="menu-item"><a href="{{asset('')}}{{$val->category->slug}}" class="menu-link">{{$val->name}}</a></li>
-                        @endif
-                        @endforeach
-                     </ul>
-                  </nav>
-               </section>
+        <div class="container">
+            <header>
+              <nav class="container" id='cssmenu'>
+                <div class="logo"><a href="{{asset('')}}" class="brand logo"><img src="data/home/{{$setting->img}}"></a></div>
+                <div id="head-mobile"></div>
+                <div class="button"></div>
+                <ul>
+                <li class=''><a href="{{asset('')}}">Trang chủ</a></li>
+                @foreach($category as $cat)
+                <?php $subcat = CategoryTranslation::where('parent', $cat->id)->get(); ?>
+                @if(count($subcat)>0)
+                <li><a href='{{$cat->Category->slug}}'>{{$cat->name}}</a>
+                   <ul>
+                    @foreach($subcat as $sub)
+                    <li><a href='{{$sub->Category->slug}}'>{{$sub->name}}</a></li>
+                    @endforeach
+                   </ul>
+                </li>
+                @else
+                <li class=''><a href="{{$cat->Category->slug}}">{{$cat->name}}</a></li>
+                @endif
+                @endforeach
+                
+                </ul>
+              </nav>
             </header>
             <div class="menu_mobile"></div>
-            
         </div>
     </div>
 </section>
