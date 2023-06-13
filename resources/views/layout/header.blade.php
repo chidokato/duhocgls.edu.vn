@@ -22,7 +22,7 @@
                 <div id="head-mobile"></div>
                 <div class="button"></div>
                 <ul>
-                <li class=''><a href="{{asset('')}}">Trang chủ</a></li>
+                <!-- <li class=''><a href="{{asset('')}}">Trang chủ</a></li> -->
                 @foreach($category as $cat)
                 <?php $subcat = CategoryTranslation::where('parent', $cat->id)->get(); ?>
                 @if(count($subcat)>0)
