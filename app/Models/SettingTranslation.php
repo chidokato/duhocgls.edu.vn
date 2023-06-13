@@ -25,4 +25,8 @@ class SettingTranslation extends Model
         'keywords',
         'locale',
     ];
+    public function Setting()
+    {
+        return $this->hasOne(Setting::class, 'id', 'setting_id');
+    }
 }

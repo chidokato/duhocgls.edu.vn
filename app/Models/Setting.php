@@ -34,4 +34,9 @@ class Setting extends Model
     	'user_id', 
         'status', 
     ];
+
+    public function SettingTranslation()
+    {
+        return $this->hasMany(SettingTranslation::class, 'setting_id', 'id');
+    }
 }

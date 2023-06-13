@@ -26,6 +26,7 @@
                             <tr>
                                 <th></th>
                                 <th>Name</th>
+                                <th>Category</th>
                                 <th>Status</th>
                                 <th>Sort By</th>
                                 <th>date</th>
@@ -36,7 +37,8 @@
                             @foreach($post as $val)
                             <tr>
                                 <td>{{$val->post->id}}</td>
-                                <td>{{$val->name}}</td>
+                                <td> <a href="{{route('post.edit',[$val->post_id])}}"> {{$val->name}} </a></td>
+                                <td>{{$val->CategoryTranslation->name}}</td>
                                 <td>{{$val->status}}</td>
                                 <td>{{$val->post->sort_by}}</td>
                                 <td>{{$val->updated_at}}</td>

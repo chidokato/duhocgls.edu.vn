@@ -29,8 +29,6 @@ class SettingController extends Controller
         $data = $request->all();
         // dd($data);
         $setting = Setting::find($id);
-        $filename = $setting->img;
-        $favicon = $setting->favicon;
         // thêm ảnh
         if ($request->hasFile('img')) {
             if(File::exists('data/home/'.$setting->img)) { File::delete('data/home/'.$setting->img);} // xóa ảnh cũ
@@ -38,7 +36,9 @@ class SettingController extends Controller
             $filename = $file->getClientOriginalName();
             while(file_exists("data/home/".$filename)){$filename = rand(0,99)."_".$filename;}
             $file->move('data/home', $filename);
+            $setting->img = $filename;
         }
+
 
         if ($request->hasFile('favicon')) {
             if(File::exists('data/home/'.$setting->favicon)) { File::delete('data/home/'.$setting->favicon);} // xóa ảnh cũ
@@ -46,6 +46,7 @@ class SettingController extends Controller
             $favicon = $file->getClientOriginalName();
             while(file_exists("data/home/".$favicon)){$favicon = rand(0,99)."_".$favicon;}
             $file->move('data/home', $favicon);
+            $setting->favicon = $favicon;
         }
         // thêm ảnh
 
@@ -60,8 +61,6 @@ class SettingController extends Controller
                 'facebook' => $data['facebook'],
                 'youtube' => $data['youtube'],
                 'maps' => $data['maps'],
-                'img' => $filename,
-                'favicon' => $favicon,
             ],
             'de' => [
                 'name' => $data['name:de'],
@@ -73,8 +72,6 @@ class SettingController extends Controller
                 'facebook' => $data['facebook'],
                 'youtube' => $data['youtube'],
                 'maps' => $data['maps'],
-                'img' => $filename,
-                'favicon' => $favicon,
             ]
         ]);
         $setting->save();
