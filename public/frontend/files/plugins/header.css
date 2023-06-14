@@ -5,7 +5,7 @@
 /*#cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}*/
 #cssmenu #head-mobile{display:none}
 #cssmenu > ul > li{float:left}
-#cssmenu > ul > li > a{padding:22px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#ddd;font-weight:700;}
+#cssmenu > ul > li > a{padding:22px;font-size:12px;letter-spacing:1px;text-decoration:none;color:#ddd;font-weight:700; text-transform: uppercase;}
 #cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#fff; background: #7e1c03;}
 #cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{background:#7e1c03!important;-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
 #cssmenu > ul > li.has-sub > a{padding-right:30px}
@@ -19,7 +19,7 @@
 #cssmenu li:hover > ul > li{
     border-bottom: 1px dashed #ffffff47;}
 #cssmenu ul ul ul{margin-left:100%;top:0}
-#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:18px 15px;width:245px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400; line-height: 1.2rem}
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:18px 15px;width:245px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400; line-height: 1.2rem; text-transform: uppercase;}
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
 #cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
 #cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
