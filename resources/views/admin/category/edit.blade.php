@@ -3,7 +3,7 @@
 @section('content')
 @include('admin.alert')
 
-<form method="post" action="{{route('category.update', [$data->id])}}">
+<form method="post" action="{{route('category.update', [$data->id])}}" enctype="multipart/form-data">
 @csrf
 @method('PUT')
 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow fixed">
@@ -78,7 +78,7 @@
     <div class="col-xl-3 col-lg-3">
       <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Images</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Tùy chọn</h6>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -126,24 +126,36 @@
             </div>
 
         </div>
-        <!-- <div class="card shadow mb-4">
+
+        <div class="card shadow mb-2">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Images</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Chọn nhiều ảnh</h6>
             </div>
             <div class="card-body">
-                <div class="file-upload">
-                    <div class="file-upload-content" onclick="$('.file-upload-input').trigger( 'click' )">
-                        <img class="file-upload-image" src="{{ isset($data) ? 'data/category/'.$data->img : 'data/no_image.jpg' }}" />
+                <div class="form-group">
+                    <input type="file" name="imgdetail[]" multiple class="form-control">
+                    <p>Nhấn giữ <i style="color: red">Ctrl</i> để chọn nhiều ảnh !</p>
+                </div>
+                <div class="row detail-img">
+                    @foreach($Images as $val)
+                    <div class="col-md-4" id="detail_img">
+                        <img src="data/category/{{$val->img}}">
+                        <button type="button" onClick="delete_row(this)" id="del_img_detail"> <i class="fa fa-times" aria-hidden="true"></i> </button>
+                        <input type="hidden" name="id_img_detail" id="id_img_detail" value="{{$val->id}}" />
                     </div>
-                    <div class="image-upload-wrap">
-                        <input name="img" class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-                    </div>
-                    <label><input type="checkbox" name="dell_img">Xóa ảnh</label>
+                    @endforeach
                 </div>
             </div>
+        </div>
 
-        </div> -->
       </div>
 </div>
 </form>
+
+<script>
+    function delete_row(e) {
+        e.parentElement.remove();
+    }
+</script>
+
 @endsection

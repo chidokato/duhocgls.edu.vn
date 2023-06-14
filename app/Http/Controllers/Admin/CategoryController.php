@@ -4,12 +4,17 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Session;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
+
+use Session;
+use Image;
+use File;
 
 use App\Models\Category;
 use App\Models\CategoryTranslation;
-use Illuminate\Support\Facades\Auth;
+use App\Models\Images;
+
 
 class CategoryController extends Controller
 {
@@ -55,6 +60,11 @@ class CategoryController extends Controller
         $category->icon = $data['icon'];
         // $category->parent = $data['parent'];
         $category->slug = Str::slug($data['name:vi'], '-');
+
+
+        
+
+
         $category->fill([
             'vi' => [
                 'name' => $data['name:vi'],
@@ -99,7 +109,8 @@ class CategoryController extends Controller
         $category = CategoryTranslation::join('categories', 'categories.id', '=', 'category_translations.category_id')
             ->select('category_translations.*')
             ->where('locale', $locale)->where('sort_by', $data->sort_by)->where('parent', '0')->get();
-        return view('admin.category.edit', compact('data', 'category', 'locale'));
+        $Images = Images::where('category_id', $data->id)->get();
+        return view('admin.category.edit', compact('data', 'category', 'locale', 'Images'));
     }
 
     /**
@@ -133,10 +144,27 @@ class CategoryController extends Controller
                 'description' => $data['description:de'],
             ]
         ]);
+
+
         $category->save();
 
-        // return redirect()->back();
-        return redirect('admin/category')->with('success','updated successfully');
+
+        if($request->hasFile('imgdetail')){
+            foreach ($request->file('imgdetail') as $file) {
+                if(isset($file)){
+                    $Images = new Images();
+                    $Images->category_id = $category->id;
+                    $filename = $file->getClientOriginalName();
+                    while(file_exists("data/category/".$filename)){$filename = rand(0,99)."_".$filename;}
+                    $file->move('data/category', $filename);
+                    $Images->img = $filename;
+                    $Images->save();
+                }
+            }
+        }
+
+        return redirect()->back();
+        // return redirect('admin/category')->with('success','updated successfully');
     }
 
     /**
