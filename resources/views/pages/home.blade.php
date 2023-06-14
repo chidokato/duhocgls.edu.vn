@@ -273,7 +273,7 @@
                         </div>
                         <div class="info">
                             <p>Facebook</p>
-                            <h6>Du học GLS</h6>
+                            <h6><a href="https://www.facebook.com/duhocgls.edu.vn/">Du học GLS</a></h6>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                         </div>
                         <div class="info">
                             <p>Zalo</p>
-                            <h6>Du học GLS</h6>
+                            <h6><a href="https://zalo.me/0967943945">0967.943.945</a></h6>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                         </div>
                         <div class="info">
                             <p>Hotline</p>
-                            <h6>Du học GLS</h6>
+                            <h6><a href="tel:0967943945">0967.943.945</a></h6>
                         </div>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
                         </div>
                         <div class="info">
                             <p>Email</p>
-                            <h6>Du học GLS</h6>
+                            <h6><a href="mail:duhocgls@gmail.com">duhocgls@gmail.com</a></h6>
                         </div>
                     </div>
                 </div>
@@ -496,7 +496,25 @@
             </div>
         </div>
     </div> -->
-
+    <div class="column_inner section312311">
+        <div class="container">
+            <div style="background: url(frontend/imgs/Asset-8-1.png) no-repeat center; background-size: cover;">
+                <div class="section31231">
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maps-home">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14901.943022387779!2d105.7878974!3d20.9731568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad24981b983b%3A0x15407a1996506fd3!2zVFJVTkcgVMOCTSBUxq8gVuG6pE4gRFUgSOG7jEMgR0xTIEVEVUNBVElPTg!5e0!3m2!1svi!2s!4v1686717847230!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
 </section>
 

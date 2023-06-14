@@ -4,7 +4,7 @@
                 <div class="row footer_row">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="footer_logo" style="margin: 0 0 15px 0;">
-                            <img src="data/home/logo-trang.png" alt="No picture">
+                            <img src="data/home/{{$setting->Setting->img}}" alt="No picture">
                         </div>
                         <div class="footer_info" style="font-size: 13px">
                             <p></p>
