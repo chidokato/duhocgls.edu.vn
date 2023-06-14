@@ -16,6 +16,9 @@
 @endsection
 
 @section('content')
+
+
+
 <section class="main">
     <div class="main_space"></div>
     <div class="container row_container">

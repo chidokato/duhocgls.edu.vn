@@ -100,7 +100,7 @@ class HomeController extends Controller
             ->where('locale', $locale)
             ->orderBy('id', 'desc')
             ->get();
-        
+        $images = Images::where('category_id', $data->category_id)->get();
         if ($data->category->sort_by == 'Product') {
             return view('pages.category', compact(
                 'category',
@@ -114,6 +114,7 @@ class HomeController extends Controller
                 'data',
                 'post',
                 'setting',
+                'images',
             ));
         }
     }
