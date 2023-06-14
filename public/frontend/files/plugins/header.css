@@ -19,7 +19,7 @@
 #cssmenu li:hover > ul > li{
     border-bottom: 1px dashed #ffffff47;}
 #cssmenu ul ul ul{margin-left:100%;top:0}
-#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:18px 15px;width:245px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400;}
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:18px 15px;width:245px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400; line-height: 1.2rem}
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
 #cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
 #cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}

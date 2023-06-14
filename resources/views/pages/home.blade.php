@@ -15,8 +15,9 @@
 
 <div class="header_banner">
     <div class="banner-slider owl-carousel owl-theme">
+            @foreach($slider as $val)
             <div class="banner-item">
-                <img src="frontend/imgs/slider1.jpg" alt="No picture">
+                <img src="data/home/{{$val->Slider->img}}" alt="No picture">
                 <!-- <div class="header_name">
                     <h3 class="name_text">
                         <div style="text-align:center"><span style="color:#FFFFFF">&nbsp;Thuộc quần thể biệt thự&nbsp;cao cấp </span></div>
@@ -31,23 +32,7 @@
                     </div>
                 </div> -->
             </div>
-
-            <div class="banner-item">
-                <img src="frontend/imgs/slider2.jpg" alt="No picture">
-                <!-- <div class="header_name">
-                    <h3 class="name_text">
-                        <div style="text-align:center"><span style="color:#FFFFFF">&nbsp;Thuộc quần thể biệt thự&nbsp;cao cấp </span></div>
-                    </h3>
-                    <h3 class="name_title">
-                        Sang trọng &amp; đẳng cấp
-                    </h3>
-                    <div class="name_button" style="text-align: center;">
-                        <a href="phong-nghi.html">
-                            <button>Kh&#225;m ph&#225; ph&#242;ng</button>
-                        </a>
-                    </div>
-                </div> -->
-            </div>
+            @endforeach
     </div>
 </div>
 
@@ -61,15 +46,16 @@
                         <div class="text_name">
                             <h1 style="font-size: 1.7rem">
                                 <!-- {{__('lang.heading1')}} -->
-                                VỀ TẬP ĐOÀN GIÁO DỤC BLA
+                                GIỚI THIỆU CHUNG
                             </h1>
                             <div class="text">
                                 <div style="text-align:justify">
                                     <!-- <p>{{__('lang.text1')}}</p> -->
-                                    <p>Tập đoàn giáo dục BLA (BLA Education Group) được thành lập và phát triển bởi những tiến sĩ, thạc sĩ, giáo viên từ Đức trở về Việt Nam. BLA được sinh ra với sứ mệnh giúp hàng trăm ngàn các bạn trẻ Việt Nam có cơ hội sang Đức học tập và làm việc thành công, qua đó giúp đỡ cho gia đình và cho quê hương</p>
-                                    <div class="button_getnow">
+                                    <p>Công ty Cổ phần Tư vấn Du học GLS Education được thành lập và phát triển bởi đội ngũ Co-Founder là những du học sinh đã học tập và sinh sống tại Đức hơn 10 năm. Mang trong mình dòng máu Việt kết hợp với văn hoá và tư duy nước Đức, chúng tôi trở về Việt Nam với mục tiêu chung tay xây dựng đất nước và góp phần nâng cao giá trị người Việt</p>
+                                    <p>Bắt đầu từ năm 2018, GLS đã trải qua 05 năm hình thành và phát triển từ một trung tâm dạy tiếng Đức. Cho đến nay, GLS Education tự hào là đơn vị hàng đầu trong lĩnh vực du học nghề Đức tại Việt Nam, đồng thời có mối quan hệ đối tác chiến lược rộng khắp trên toàn nước Đức, chúng tôi tin rằng có thể hỗ trợ các bạn học viên trong việc lựa chọn được vùng miền theo đúng nhu cầu của mình</p>
+                                    <!-- <div class="button_getnow">
                                         <a href="#"><button>Xem thêm</button></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -98,34 +84,36 @@
                         <div class="col-lg-12 col-md-12">
                             <div class="">
                                 <div class="item_img">
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="item_text">
-                                    <h3>Sứ mệnh</h3>
-                                    <span></span>
-                                    <div class="item_text-price">
-                                        <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home-about">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="">
-                                <div class="item_img">
                                     <i class="fa fa-road"></i>
                                 </div>
                                 <div class="item_text">
                                     <h3>TẦM NHÌN</h3>
                                     <span></span>
                                     <div class="item_text-price">
-                                        <p>Trở thành Tập Đoàn SỐ 1 VIỆT NAM về du học và làm việc tại Đức. Giúp 1000 bạn mỗi năm sang Đức thành công trước năm 2025</p>
+                                        <p>Trở thành đơn vị dẫn đầu thị trường Việt Nam trong lĩnh vực du học và định cư tại Đức. Đồng thời, xây dựng niềm tin và trở thành đối tác chiến lược của các doanh nghiệp lớn để mang đến những cơ hội nghề nghiệp tốt nhất cho cộng đồng người Việt</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="home-about">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="">
+                                <div class="item_img">
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="item_text">
+                                    <h3>Sứ mệnh</h3>
+                                    <span></span>
+                                    <div class="item_text-price">
+                                        <p>Sứ mệnh của GLS là mang đến cho cộng đồng cơ hội được học tập, sinh sống, làm việc và định cư tại Quốc gia số 1 châu  u, góp phần nâng cao và khẳng định giá trị người Việt trên thị trường quốc tế</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="home-about">
                         <div class="col-lg-12 col-md-12">
                             <div class="">
@@ -136,7 +124,7 @@
                                     <h3>GIÁ TRỊ CỐT LÕI</h3>
                                     <span></span>
                                     <div class="item_text-price">
-                                        <p>Giá trị cốt lõi của BLA đó chính là UY TÍN. Chúng tôi đã, đang và sẽ hàng ngày vun đắp thêm uy tín của mình qua chất lượng dịch vụ đào tạo và tư vấn giáo dục của mình</p>
+                                        <p>Tận tâm - Chuyên nghiệp - Chính trực - Cá nhân hoá - Kết nối - Tập trung vào khách hàng</p>
                                     </div>
                                 </div>
                             </div>

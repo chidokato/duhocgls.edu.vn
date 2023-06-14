@@ -3,14 +3,14 @@
         <i class="fa fa-bars"></i>
     </button>
 
-    <ul class="navbar-nav ">
+    <!-- <ul class="navbar-nav ">
         <li class="nav-item"> <a class="nav-link" href="{{url('lang/vi')}}" > 
             <button class="card bg-danger text-white shadow"><img style="width: 19px;" src="frontend/imgs/vi.png"> VI</button> </a> 
         </li>
         <li class="nav-item"> <a class="nav-link" href="{{url('lang/de')}}" > 
             <button class="card bg-success text-white shadow"><img style="width: 19px;" src="frontend/imgs/de.jpg"> DE</button> </a> 
         </li>
-    </ul>
+    </ul> -->
         
 
     <ul class="navbar-nav ml-auto">
