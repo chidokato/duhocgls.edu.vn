@@ -214,9 +214,9 @@
         <div class="container">
             <div class="row section312312">
                 <div class="col-lg-6 col-md-5">
-                    <h2>Cảm nhận của học sinh phụ huynh về EduGo</h2>
-                    <h3>KHÁCH HÀNG NÓI GÌ VỀ EDUGO?</h3>
-                    <p>EduGo với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
+                    <h2>Cảm nhận của học sinh phụ huynh về GLS</h2>
+                    <h3>KHÁCH HÀNG NÓI GÌ VỀ GLS?</h3>
+                    <p>GLS với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
                 </div>
                 <div class="col-lg-6 col-md-7">
                     <div class="custom_1581866095395">
@@ -262,7 +262,60 @@
         </div>
     </div>
 
-    
+    <div class="column_inner section23489234">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/fb.png">
+                        </div>
+                        <div class="info">
+                            <p>Facebook</p>
+                            <h6>Du học GLS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/zalo.png">
+                        </div>
+                        <div class="info">
+                            <p>Zalo</p>
+                            <h6>Du học GLS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/hotline.png">
+                        </div>
+                        <div class="info">
+                            <p>Hotline</p>
+                            <h6>Du học GLS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/email.jpg">
+                        </div>
+                        <div class="info">
+                            <p>Email</p>
+                            <h6>Du học GLS</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="main_news f8f8f8">
         <div class="container news_container">
@@ -443,6 +496,7 @@
             </div>
         </div>
     </div> -->
+
     
 </section>
 

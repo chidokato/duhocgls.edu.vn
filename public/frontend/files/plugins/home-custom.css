@@ -145,3 +145,10 @@
 }
 .section312312 h2{ color: #961e00; font-size: 1.5rem; margin-bottom: 20px }
 .section312312 h3{ font-weight: bold; margin-bottom: 20px }
+.section23489234{ background: #961e00; padding: 30px 0px !important; }
+.section23489234 .item_img img{ width: 60px }
+.section23489234 .iteam{ display: flex; align-items: center; position: relative; }
+.section23489234 .info{ margin-left: 10px }
+.section23489234 .info p{ margin-bottom: 0px; font-size: 1.2rem; color: #fff }
+.section23489234 .info h6{ margin-bottom: 0px; font-size: 1.4rem; color: #fff }
+.section23489234 .iteam img.icon{ position: absolute; top: -48px ; left: 10px}
