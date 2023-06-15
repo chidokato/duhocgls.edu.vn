@@ -266,7 +266,7 @@
     <div class="main_news f8f8f8">
         <div class="container news_container">
             <div class="news_text">
-                <h2 class="home-title">CÁC KHÓA HỌC TIẾNG ĐỨC</h2>
+                <h2 class="home-title">DU HỌC NGHỀ</h2>
                 <div class="heading__line"></div>
             </div>
             <div class="news_list">
