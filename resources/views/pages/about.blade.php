@@ -11,7 +11,28 @@
 @endsection
 @section('content')
 
-@include('layout.slider')
+<div class="header_banner">
+    <div class="banner-slider owl-carousel owl-theme">
+            @foreach($slider as $val)
+            <div class="banner-item">
+                <img src="data/home/{{$val->Slider->img}}" alt="No picture">
+                <!-- <div class="header_name">
+                    <h3 class="name_text">
+                        <div style="text-align:center"><span style="color:#FFFFFF">&nbsp;Thuộc quần thể biệt thự&nbsp;cao cấp </span></div>
+                    </h3>
+                    <h3 class="name_title">
+                        Sang trọng &amp; đẳng cấp
+                    </h3>
+                    <div class="name_button" style="text-align: center;">
+                        <a href="phong-nghi.html">
+                            <button>Kh&#225;m ph&#225; ph&#242;ng</button>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            @endforeach
+    </div>
+</div>
 
 <section class="main">
     <div class="main_hotel f8f8f8">
@@ -37,12 +58,8 @@
                             </h1>
                             <div class="text">
                                 <div style="text-align:justify">
-                                    <p>Tập đoàn giáo dục BLA được thành lập và phát triển bởi các tiến sỹ, thạc sỹ từ Đức và các nước châu Âu trở về Việt Nam từ năm 2017</p>
-                                    <p>BLA cung cấp các sản phẩm dịch vụ liên quan tới đào tạo tiếng Đức và Tư vấn du học Đức bao gồm</p>
-                                    <p>– Đào tạo tiếng Đức;</p>
-                                    <p>– Tư vấn du học Đức: Du học đại học, Du học nghề hưởng lương;</p>
-                                    <p>– Đào tạo kỹ năng làm việc, văn hoá làm việc tiêu chuẩn Đức.</p>
-                                    <p>Năm 2020, BLA vinh hạnh là một trong những đơn vị tiêu biểu vinh danh trong chương trình kỷ niệm 45 quan hệ Việt – Đức</p>
+                                    <p>Công ty Cổ phần Tư vấn Du học GLS Education được thành lập và phát triển bởi đội ngũ Co-Founder là những du học sinh đã học tập và sinh sống tại Đức hơn 10 năm. Mang trong mình dòng máu Việt kết hợp với văn hoá và tư duy nước Đức, chúng tôi trở về Việt Nam với mục tiêu chung tay xây dựng đất nước và góp phần nâng cao giá trị người Việt</p>
+                                    <p>Bắt đầu từ năm 2018, GLS đã trải qua 05 năm hình thành và phát triển từ một trung tâm dạy tiếng Đức. Cho đến nay, GLS Education tự hào là đơn vị hàng đầu trong lĩnh vực du học nghề Đức tại Việt Nam, đồng thời có mối quan hệ đối tác chiến lược rộng khắp trên toàn nước Đức, chúng tôi tin rằng có thể hỗ trợ các bạn học viên trong việc lựa chọn được vùng miền theo đúng nhu cầu của mình</p>
                                 </div>
                             </div>
                         </div>
@@ -59,34 +76,36 @@
                         <div class="col-lg-12 col-md-12">
                             <div class="">
                                 <div class="item_img">
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="item_text">
-                                    <h3>Sứ mệnh</h3>
-                                    <span></span>
-                                    <div class="item_text-price">
-                                        <p>Giúp các bạn trẻ Việt Nam sang Đức học tập và làm việc thành công, mang lại sự thịnh vượng & tinh hoa tri thức về cho gia đình, quê hương và đất nước. Mỗi học viên BLA sẽ là một đại sứ để bạn bè quốc tế hiểu và yêu mến Việt Nam hơn</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home-about">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="">
-                                <div class="item_img">
                                     <i class="fa fa-road"></i>
                                 </div>
                                 <div class="item_text">
                                     <h3>TẦM NHÌN</h3>
                                     <span></span>
                                     <div class="item_text-price">
-                                        <p>Trở thành Tập Đoàn SỐ 1 VIỆT NAM về du học và làm việc tại Đức. Giúp 1000 bạn mỗi năm sang Đức thành công trước năm 2025</p>
+                                        <p>Trở thành đơn vị dẫn đầu thị trường Việt Nam trong lĩnh vực du học và định cư tại Đức. Đồng thời, xây dựng niềm tin và trở thành đối tác chiến lược của các doanh nghiệp lớn để mang đến những cơ hội nghề nghiệp tốt nhất cho cộng đồng người Việt</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="home-about">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="">
+                                <div class="item_img">
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="item_text">
+                                    <h3>Sứ mệnh</h3>
+                                    <span></span>
+                                    <div class="item_text-price">
+                                        <p>Sứ mệnh của GLS là mang đến cho cộng đồng cơ hội được học tập, sinh sống, làm việc và định cư tại Quốc gia số 1 châu  u, góp phần nâng cao và khẳng định giá trị người Việt trên thị trường quốc tế</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="home-about">
                         <div class="col-lg-12 col-md-12">
                             <div class="">
@@ -97,7 +116,7 @@
                                     <h3>GIÁ TRỊ CỐT LÕI</h3>
                                     <span></span>
                                     <div class="item_text-price">
-                                        <p>Giá trị cốt lõi của BLA đó chính là UY TÍN. Chúng tôi đã, đang và sẽ hàng ngày vun đắp thêm uy tín của mình qua chất lượng dịch vụ đào tạo và tư vấn giáo dục của mình</p>
+                                        <p>Tận tâm - Chuyên nghiệp - Chính trực - Cá nhân hoá - Kết nối - Tập trung vào khách hàng</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,111 +129,158 @@
 
 
     <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
-        <div class="container news_container">
-            <div class="inner_text">
+        <div class="container">
+            <!-- <div class="inner_text">
                 <h2 class="home-title">CHỌN BLA ĐỂ XÂY DỰNG TƯƠNG LAI TƯƠI SÁNG, TẠI SAO?</h2>
                 <div class="heading__line"></div>
-            </div>
-            <div class="row home-about">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item_img">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
+            </div> -->
+            <div class="row section3123">
+                <div class="col-lg-3 col-md-3">
                     <div class="item_text">
-                        <h3 class="color_fff">CHẤT LƯỢNG ĐÀO TẠO CAO</h3>
-                        <span></span>
-                        <div class="item_text-price color_fff">
-                            <p>BLA là một trong số ít các trung tâm có thể đào tạo từ A1 tới trình độ cao B2. Với đội ngũ giáo viên nhiều kinh nghiệm cùng hệ thống giáo trình hiện đại các học viên của BLA khi ra trường luôn có chất lượng thực tế cao hơn nhiều so với mặt bằng chung của cả nước ở cùng trình độ học</p>
-                        </div>
+                        <img src="frontend/imgs/88888.png">
+                        <h5 class="color_fff">100%</h5>
+                        <p>Tỷ lệ học viên đỗ Visa</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="item_img">
-                        <i class='fab fa-pagelines'></i>
-                    </div>
+                <div class="col-lg-3 col-md-3">
                     <div class="item_text">
-                        <h3 class="color_fff">PHƯƠNG PHÁP ĐỘC QUYỀN P4F</h3>
-                        <span></span>
-                        <div class="item_text-price color_fff">
-                            <p>Phương pháp dạy ngoại ngữ P4F của BLA (ĐỘC QUYỀN) sẽ giúp học viên yêu thích việc học tiếng Đức và học hiệu quả hơn so với các phương pháp truyền thống. Phương pháp này còn đặc biệt hiệu quả dành cho các bạn chưa từng học ngoại ngữ hoặc sợ học ngoại ngữ</p>
-                        </div>
+                        <img src="frontend/imgs/8888877.png">
+                        <h5 class="color_fff"> > 90% </h5>
+                        <p>Tỷ lệ học viên đỗ B1</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="item_img">
-                        <i class="fa fa-users"></i>
-                    </div>
+                <div class="col-lg-3 col-md-3">
                     <div class="item_text">
-                        <h3 class="color_fff">NHIỀU HỌC VIÊN DU HỌC THÀNH CÔNG</h3>
-                        <span></span>
-                        <div class="item_text-price color_fff">
-                            <p>Với kinh nghiệm nhiều năm của mình, đội ngũ tư vấn viên của BLA tại Việt Nam cũng như cộng tác viên tại CHLB Đức đã giúp nhiều học viên du học thành công. Với BLA mục tiêu không phải là đưa được các học viên sang Đức mà là giúp từng học viên du học thành công và chắc chắn</p>
-                        </div>
+                        <img src="frontend/imgs/886.png">
+                        <h5 class="color_fff">800+</h5>
+                        <p>Học viên theo học tiếng Đức mỗi năm</p>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="item_text">
+                        <img src="frontend/imgs/85.png">
+                        <h5 class="color_fff">500+</h5>
+                        <p>Hồ sơ Visa kết nối các học viên sang Đức thành công</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
-
-    <div class="main_lodging">
-        <div class="carousel_lod">
-            <div class="container car_container">
-                <div class="news_text">
-                    <h2 class="home-title">CÂU CHUYỆN THÀNH CÔNG</h2>
-                    <div class="heading__line"></div>
+    <div class="column_inner">
+        <div class="container">
+            <div class="row section312312">
+                <div class="col-lg-6 col-md-5">
+                    <h2>Cảm nhận của học sinh phụ huynh về GLS</h2>
+                    <h3>KHÁCH HÀNG NÓI GÌ VỀ GLS?</h3>
+                    <p>GLS với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
                 </div>
-                <div class="carousel_lod--list1 owl-carousel custom_1581866095395">
-                    
-                    <div class="iteam_row">
-                        <div class="item_img">
-                            <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
-                            <div class="author">
-                                <h4>Lê Bích Phượng</h4>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <p>Du học sinh tại đức</p>
+                <div class="col-lg-6 col-md-7">
+                    <div class="custom_1581866095395">
+                        <div class="carousel_lod--list1 owl-carousel">
+                            <div class="iteam_row">
+                                <div class="item_img">
+                                    <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
+                                    <div class="author">
+                                        <h4>Lê Bích Phượng</h4>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <p>Du học sinh tại đức</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item_text">
-                            <h3>Đáng tin cậy và tin tưởng</h3>
-                            <span></span>
-                            <div class="item_text-price">
-                                <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức. Ngoài ra, giáo viên và các em học sinh luôn thân thiện và dễ thương. Tôi cũng thích trò chơi “ma sói” cùng nhau trong thời gian ra chơi của buổi học. Và tôi hy vọng BLA sẽ phát triển mạnh mẽ hơn trong tương lai.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="iteam_row">
-                        <div class="item_img">
-                            <img src="https://bla.vn/wp-content/uploads/2020/03/Diep-120x120.png">
-                            <div class="author">
-                                <h4>Diệp Dịu Dàng</h4>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <p>Học viên tiếng Đức</p>
-                            </div>
-                        </div>
-                        <div class="item_text">
-                            <h3>Sống, học tập và làm việc như người Đức</h3>
-                            <span></span>
-                            <div class="item_text-price">
-                                <p>Em cũng đã học tiếng Đức ở 1 vài nơi, sau đó mới đến với BLA. Và em đã ước giá như mình tìm thấy BLA sớm hơn. Các thầy cô đã đưa em đến vs nước Đức mà không chỉ riêng tiếng Đức. 1 nước Đức tiến bộ, phát triển nhanh cũng thật gần. Cái mà em thật sự học đc ở BLA là cách sống tích cực, cách học và làm việc hiệu quả nhất trên nước Đức, cách mà các thầy cô truyền nhiệt huyết tuổi trẻ cho thế hệ theo sau.</p>
+                            <div class="iteam_row">
+                                <div class="item_img">
+                                    <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
+                                    <div class="author">
+                                        <h4>Lê Bích Phượng</h4>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <p>Du học sinh tại đức</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </div>
 
     
+
+    
+    <div class="column_inner section23489234">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/fb.png">
+                        </div>
+                        <div class="info">
+                            <p>Facebook</p>
+                            <h6><a href="https://www.facebook.com/duhocgls.edu.vn/">Du học GLS</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/zalo.png">
+                        </div>
+                        <div class="info">
+                            <p>Zalo</p>
+                            <h6><a href="https://zalo.me/0967943945">0967.943.945</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/hotline.png">
+                        </div>
+                        <div class="info">
+                            <p>Hotline</p>
+                            <h6><a href="tel:0967943945">0967.943.945</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/email.jpg">
+                        </div>
+                        <div class="info">
+                            <p>Email</p>
+                            <h6><a href="mail:duhocgls@gmail.com">duhocgls@gmail.com</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="maps-home">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14901.943022387779!2d105.7878974!3d20.9731568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad24981b983b%3A0x15407a1996506fd3!2zVFJVTkcgVMOCTSBUxq8gVuG6pE4gRFUgSOG7jEMgR0xTIEVEVUNBVElPTg!5e0!3m2!1svi!2s!4v1686717847230!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     
 </section>
 

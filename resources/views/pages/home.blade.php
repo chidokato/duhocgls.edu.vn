@@ -11,8 +11,6 @@
 
 @section('content')
 
-
-
 <div class="header_banner">
     <div class="banner-slider owl-carousel owl-theme">
             @foreach($slider as $val)
@@ -134,6 +132,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- <div class="wpb_wrapper f8f8f8">
         <div class="container">
@@ -262,60 +261,7 @@
         </div>
     </div>
 
-    <div class="column_inner section23489234">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="iteam">
-                        <img class="icon" src="frontend/imgs/icon-down.png">
-                        <div class="item_img">
-                            <img src="frontend/imgs/fb.png">
-                        </div>
-                        <div class="info">
-                            <p>Facebook</p>
-                            <h6><a href="https://www.facebook.com/duhocgls.edu.vn/">Du học GLS</a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="iteam">
-                        <img class="icon" src="frontend/imgs/icon-down.png">
-                        <div class="item_img">
-                            <img src="frontend/imgs/zalo.png">
-                        </div>
-                        <div class="info">
-                            <p>Zalo</p>
-                            <h6><a href="https://zalo.me/0967943945">0967.943.945</a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="iteam">
-                        <img class="icon" src="frontend/imgs/icon-down.png">
-                        <div class="item_img">
-                            <img src="frontend/imgs/hotline.png">
-                        </div>
-                        <div class="info">
-                            <p>Hotline</p>
-                            <h6><a href="tel:0967943945">0967.943.945</a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="iteam">
-                        <img class="icon" src="frontend/imgs/icon-down.png">
-                        <div class="item_img">
-                            <img src="frontend/imgs/email.jpg">
-                        </div>
-                        <div class="info">
-                            <p>Email</p>
-                            <h6><a href="mail:duhocgls@gmail.com">duhocgls@gmail.com</a></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="main_news f8f8f8">
         <div class="container news_container">
@@ -391,81 +337,9 @@
         </div>
     </div>
 
-    <div class="main_news">
-        <div class="container news_container">
-            <div class="news_text">
-                <h2 class="home-title">CÁC CHƯƠNG TRÌNH DU HỌC ĐỨC</h2>
-                <div class="heading__line"></div>
-            </div>
-            <div class="news_list">
-                <div class="row news_list-row">
+   
 
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <div class="news_list-item">
-                                <div class="news_item-img">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        <img src="frontend/files/images/news/Cho_tinh_Sapa_3.jpg" alt="cho-tinh-sapa">
-                                    </a>
-                                </div>
-                                <div class="news_item-text">
-                                    <div class="news_item-title">
-                                        <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                            Tổng Hợp Thông Tin Các Chương Trình Du Học Nghề Đức 2021
-                                        </a>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="">Chi tiết</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <div class="news_list-item">
-                                <div class="news_item-img">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        <img src="frontend/files/images/news/Cho_tinh_Sapa_3.jpg" alt="cho-tinh-sapa">
-                                    </a>
-                                </div>
-                                <div class="news_item-text">
-                                    <div class="news_item-title">
-                                        <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                            Tổng Hợp Thông Tin Các Chương Trình Du Học Nghề Đức 2021
-                                        </a>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="">Chi tiết</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <div class="news_list-item">
-                                <div class="news_item-img">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        <img src="frontend/files/images/news/Cho_tinh_Sapa_3.jpg" alt="cho-tinh-sapa">
-                                    </a>
-                                </div>
-                                <div class="news_item-text">
-                                    <div class="news_item-title">
-                                        <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                            Tổng Hợp Thông Tin Các Chương Trình Du Học Nghề Đức 2021
-                                        </a>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="">Chi tiết</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="button_getnow">
-                            <a href="#"><button>Xem tất cả các chương trình học</button></a>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
+   <!--  <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
         <div class="container news_container">
             <div class="row home-about">
                 <div class="col-lg-6 col-md-6">
@@ -498,24 +372,105 @@
     </div> -->
     <div class="column_inner section312311">
         <div class="container">
-            <div style="background: url(frontend/imgs/Asset-8-1.png) no-repeat center; background-size: cover;">
+            <div style="background: url(frontend/imgs/fff.png) no-repeat center; background-size: cover; padding: 50px 100px;">
                 <div class="section31231">
                     <div class="row">
-                        <div class="col-md-6">
-                            
+                        <div class="col-md-6 text">
+                            <h3>ĐĂNG KÝ NGAY HÔM NAY</h3>
+                            <p>Để hưởng ưu đãi 60 triệu trong tháng này</p>
+                            <hr>
+                            <div class="iteam">
+                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                            </div>
+                            <div class="iteam">
+                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                            </div>
+                            <div class="iteam">
+                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                            </div>
+                            <div class="hotline">
+                                <img src="frontend/imgs/gggg.png">
+                                <div>Hotline: 0966 504 334</div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            
+                        <div class="col-md-6 form">
+                            <h4>ĐĂNG KÝ NGAY HÔM NAY ĐỂ NHẬN TƯ VẤN MIỄN PHÍ!</h4>
+                            <form action="" method="POST">
+                                <input type="text" class="form-control" name="" placeholder="Họ & Tên">
+                                <input type="text" class="form-control" name="" placeholder="Số điện thoại">
+                                <input type="text" class="form-control" name="" placeholder="Email">
+                                <input type="text" class="form-control" name="" placeholder="Địa chỉ">
+                                <button class="form-control" type="submit">TƯ VẤN NGAY</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="column_inner section23489234">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/fb.png">
+                        </div>
+                        <div class="info">
+                            <p>Facebook</p>
+                            <h6><a href="https://www.facebook.com/duhocgls.edu.vn/">Du học GLS</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/zalo.png">
+                        </div>
+                        <div class="info">
+                            <p>Zalo</p>
+                            <h6><a href="https://zalo.me/0967943945">0967.943.945</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/hotline.png">
+                        </div>
+                        <div class="info">
+                            <p>Hotline</p>
+                            <h6><a href="tel:0967943945">0967.943.945</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="iteam">
+                        <img class="icon" src="frontend/imgs/icon-down.png">
+                        <div class="item_img">
+                            <img src="frontend/imgs/email.jpg">
+                        </div>
+                        <div class="info">
+                            <p>Email</p>
+                            <h6><a href="mail:duhocgls@gmail.com">duhocgls@gmail.com</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
     <div class="maps-home">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14901.943022387779!2d105.7878974!3d20.9731568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad24981b983b%3A0x15407a1996506fd3!2zVFJVTkcgVMOCTSBUxq8gVuG6pE4gRFUgSOG7jEMgR0xTIEVEVUNBVElPTg!5e0!3m2!1svi!2s!4v1686717847230!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
+
 </section>
 
 @endsection

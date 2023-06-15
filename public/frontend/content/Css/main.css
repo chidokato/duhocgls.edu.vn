@@ -1530,3 +1530,14 @@ a:hover {
     font-size: 2rem;
     margin: 20px 0px;
 }
+/*.section312311 .container{box-shadow: 0 6px 13px rgb(145 145 145/95%); border-radius: 20px}*/
+.section31231 .text{ background: #961e00; border-radius: 20px 0px 0px 20px; color: #fff; padding: 30px }
+.section31231 .text h3{ font-weight: bold; }
+.section31231 .text hr{ color: #fff; border-color: #fff }
+.section31231 .text .iteam div{ display: flex; font-size: 1.1rem; align-items: center; color: #564; margin: 20px 0px; font-size: 1.1rem }
+.section31231 .text .iteam div span{ margin-left: 15px; color: #fff; border-left: 1px solid #fff; padding-left: 15px }
+.section31231 .hotline{ display: flex; font-size: 1.6rem }
+.section31231 .hotline img{ margin-right: 15px; }
+.section31231 .form{ background: #ddd; border-radius: 0px 20px 20px 0px; padding: 30px}
+.section31231 .form h4{ font-weight: bold; font-size: 1.6rem; border-bottom: 1px solid #fff; padding-bottom: 10px; margin-bottom: 10px }
+.section31231 .form input{ margin: 15px 0px; padding: 20px 14px; }

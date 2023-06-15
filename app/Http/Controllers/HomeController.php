@@ -55,9 +55,11 @@ class HomeController extends Controller
             ->where('parent', 0)
             ->select('category_translations.*')->orderBy('categories.view', 'asc')->get();
         // end
+        $slider = SliderTranslation::where('locale', $locale)->get();
         return view('pages.about', compact(
             'category',
             'setting',
+            'slider',
         ));
     }
 

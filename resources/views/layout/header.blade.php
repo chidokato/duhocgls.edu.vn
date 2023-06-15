@@ -37,7 +37,7 @@
                 <li class=''><a href="{{$cat->Category->slug}}">{{$cat->name}}</a></li>
                 @endif
                 @endforeach
-                
+                <li class="icon-seach"><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
                 </ul>
               </nav>
             </header>
