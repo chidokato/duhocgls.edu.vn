@@ -122,6 +122,15 @@
                           <input value="{{$data->slug}}" name="slug" placeholder="..." type="text" class="form-control">
                       </div>
                   </div>
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label>Style</label>
+                          <select name="style" class="form-control">
+                            <option value="">...</option>
+                            <option <?php if($data->style == 1){echo "selected";} ?> value="1">Style 1</option>
+                          </select>
+                      </div>
+                  </div>
               </div>
             </div>
 

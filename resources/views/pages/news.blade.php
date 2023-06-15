@@ -8,29 +8,6 @@
 @section('css')
 <link href="frontend/content/Css/room-single.css" rel="stylesheet" />
 <link href="frontend/content/Css/blog.css" rel="stylesheet" />
-
-
-<style type="text/css">
-.booking_content h2{line-height: 1rem;margin-bottom: 10px;}
-.star-rating{margin-bottom: 10px}
-.star-rating i{ color: #ffc107 }
-.booking_icon{margin-top: 10px;}
-.row_item-img img {width: 100%;height: 165px;object-fit: cover;}
-.row_container{ margin-top: 40px }
-.header-page h1{ font-size: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 20px; }
-.header-page h1 span{ position: relative }
-.header-page h1 span:after{
-    position: absolute;
-    content: '';    background: #ffc107;
-    width: 100%;
-    height: 2px;
-    bottom: -12px;
-    left: 0;
-}
-.input_email input{
-    border: 1px solid #ddd;
-}
-</style>
 @endsection
 
 @section('content')
@@ -58,6 +35,42 @@
     </div>
 </div>
 
+@if($data->Category->style == 1)
+<section class="section56">
+    <div class="container">
+        <div class="owl-carousel owl-theme owlCarousel123">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                </div>
+                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
+                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
+                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
+                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </div>
+                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
+                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+            </div>
+        </div>
+    </div>
+</section>
+@endif
 
 <section class="main">
     <div class="container row_container">

@@ -26,7 +26,8 @@ class Category extends Model
     	'status',
     	'view',
         'icon',
-    	'sort_by',
+        'sort_by',
+    	'style',
     ];
 
     public function CategoryTranslation()

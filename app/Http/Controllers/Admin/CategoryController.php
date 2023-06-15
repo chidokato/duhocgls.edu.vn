@@ -128,6 +128,7 @@ class CategoryController extends Controller
         $category->view = $data['view'];
         $category->icon = $data['icon'];
         $category->slug = $data['slug'];
+        $category->style = $data['style'];
         $category->fill([
             'vi' => [
                 'name' => $data['name:vi'],
