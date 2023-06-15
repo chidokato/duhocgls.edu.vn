@@ -43,29 +43,36 @@
                 <div class="icon">
                     <i class="fa fa-gift" aria-hidden="true"></i>
                 </div>
-                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
-                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+                <div class="name">Miễn 100% học phí & cơ hội nhận học bổng </div>
+                <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
             </div>
             <div class="item">
                 <div class="icon">
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                 </div>
-                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
-                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+                <div class="name">Nhận lương trong quá trình học lên tới 35.000.000 VNĐ/tháng </div>
+                <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
             </div>
             <div class="item">
                 <div class="icon">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
                 </div>
-                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
-                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+                <div class="name">Ra trường có việc làm ngay, thu nhập lên tới 80.000.000 VNĐ/tháng </div>
+                <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
             </div>
             <div class="item">
                 <div class="icon">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <div class="name">MIỄN PHÍ 100% HỌC PHÍ HỌC TẬP TẠI CHLB ĐỨC </div>
-                <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div>
+                <div class="name">Định cư sau 05 năm học tập & làm việc </div>
+                <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </div>
+                <div class="name">Du lịch khắp Châu Âu không cần xin Visa </div>
+                <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
             </div>
         </div>
     </div>

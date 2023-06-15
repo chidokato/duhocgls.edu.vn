@@ -84,10 +84,10 @@
     border: 1px solid #ddd;
 }
 .section56{ margin-top: -60px }
-.section56 .owlCarousel123 .item{ display: flex; flex-direction: column; align-content: center; align-items: center; box-shadow: 0 2px 7px rgb(145 145 145/35%);padding: 20px;background: #fff;text-align: center; margin: 10px }
+.section56 .owlCarousel123 .item{ display: flex; flex-direction: column; align-content: center; align-items: center; box-shadow: 0 2px 7px rgb(145 145 145/35%);padding: 10px;background: #fff;text-align: center; margin: 10px }
 .section56 .owlCarousel123 .item .icon{ border: 1px solid #ddd; border-radius: 100%; padding: 7px; margin-bottom: 10px}
 .section56 .owlCarousel123 .item .icon i{ font-size: 1.5rem; padding: 10px; background: #ddd; border-radius: 100%; }
-.section56 .owlCarousel123 .item .name{ color: red; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px }
+.section56 .owlCarousel123 .item .name{ color: red; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; height: 87px }
 .section56 .owlCarousel123 .item .text{ font-size: 1rem }
 
 
