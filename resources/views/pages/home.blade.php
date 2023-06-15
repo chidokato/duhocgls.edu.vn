@@ -281,7 +281,7 @@
                             </div>
                             <div class="news_item-text">
                                 <div class="news_item-title">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
+                                    <a href="{{$posts->Category->slug}}/{{$val->post->slug}}">
                                         {{$val->name}}
                                     </a>
                                 </div>
