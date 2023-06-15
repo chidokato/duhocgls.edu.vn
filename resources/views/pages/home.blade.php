@@ -271,7 +271,7 @@
             </div>
             <div class="news_list">
                 <div class="row news_list-row">
-
+                    @foreach($posts->PostTranslation()->paginate(6) as $val)
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                             <div class="news_list-item">
                                 <div class="news_item-img">
@@ -291,44 +291,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <div class="news_list-item">
-                                <div class="news_item-img">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        <img src="frontend/files/images/news/Cho_tinh_Sapa_3.jpg" alt="cho-tinh-sapa">
-                                    </a>
-                                </div>
-                                <div class="news_item-text">
-                                    <div class="news_item-title">
-                                        <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                            Tổng Hợp Thông Tin Các Chương Trình Du Học Nghề Đức 2021
-                                        </a>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="">Chi tiết</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <div class="news_list-item">
-                                <div class="news_item-img">
-                                    <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        <img src="frontend/files/images/news/Cho_tinh_Sapa_3.jpg" alt="cho-tinh-sapa">
-                                    </a>
-                                </div>
-                                <div class="news_item-text">
-                                    <div class="news_item-title">
-                                        <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                            Tổng Hợp Thông Tin Các Chương Trình Du Học Nghề Đức 2021
-                                        </a>
-                                    </div>
-                                    <div class="read_more">
-                                        <a href="">Chi tiết</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    @endforeach
                         <div class="button_getnow">
                             <a href="#"><button>Xem tất cả các chương trình học</button></a>
                         </div>

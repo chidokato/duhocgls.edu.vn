@@ -32,11 +32,14 @@ class HomeController extends Controller
         $home_cats = CategoryTranslation::join('categories', 'categories.id', '=', 'category_translations.category_id')
             ->select('category_translations.*')
             ->where('locale', $locale)->where('sort_by', 'Product')->get();
-        $posts = PostTranslation::join('posts', 'posts.id', '=', 'post_translations.post_id')
-            ->where('locale', $locale)
-            ->select('post_translations.*')
-            ->where('sort_by', 'Product')
-            ->get();
+        // $posts = PostTranslation::join('posts', 'posts.id', '=', 'post_translations.post_id')
+        //     ->where('locale', $locale)
+        //     ->select('post_translations.*')
+        //     ->where('sort_by', 'Product')
+        //     ->get();
+        $posts = CategoryTranslation::where('locale', $locale)
+            ->where('category_id', 71)
+            ->first();
         return view('pages.home', compact(
             'category',
             'setting',
