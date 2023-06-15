@@ -59,7 +59,7 @@
         <div class="footer_copyright">
             <div class="container">
                 <span>
-                    Copyright ©Luxe Hotel 2022 All Rights Reserved
+                    Copyright ©Du Học GLS 2023 All Rights Reserved
                 </span>
             </div>
         </div>

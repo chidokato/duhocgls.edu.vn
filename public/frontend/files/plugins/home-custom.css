@@ -6,8 +6,8 @@
 }
 .home-about .item_img i{
 	font-size: 5rem;
-	color: #961e00;
-	border: 2px solid #961e00;
+	color: var(--main-color);
+	border: 2px solid var(--main-color);
 	border-radius: 100%;
 	padding: 30px; 
 	position: relative;
@@ -24,7 +24,7 @@
 .home-about .item_text span{
 	height: 2px;
 	width: 30px;
-	background: #000;
+	background: var(--sub-color);
 	display: block;
 	margin: 10px auto;
 }
@@ -76,7 +76,7 @@
 .heading__line{
     width: 40px;
     height: 2px;
-    background: #888;
+    background: var(--sub-color);
     display: inline-block;
     vertical-align: top;
 }
@@ -143,9 +143,9 @@
 	border: 1px solid #ddd;
     padding: 20px;
 }
-.section312312 h2{ color: #961e00; font-size: 1.5rem; margin-bottom: 20px }
+.section312312 h2{ color: var(--sub-color); font-size: 1.5rem; margin-bottom: 20px }
 .section312312 h3{ font-weight: bold; margin-bottom: 20px }
-.section23489234{ background: #961e00; padding: 30px 0px !important;  }
+.section23489234{ background: var(--main-color); padding: 30px 0px !important;  }
 .section23489234 .item_img img{ width: 60px }
 .section23489234 .iteam{ display: flex; align-items: center; position: relative; }
 .section23489234 .info{ margin-left: 10px }
@@ -153,5 +153,5 @@
 .section23489234 .info h6{ margin-bottom: 0px; font-size: 1.4rem; color: #fff }
 .section23489234 .info h6 a{ color: #fff }
 .section23489234 .iteam img.icon{ position: absolute; top: -48px ; left: 10px}
-
+.section312312 h3{ color: var(--main-color) }
 

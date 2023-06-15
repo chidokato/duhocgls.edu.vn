@@ -1,4 +1,8 @@
-
+:root {
+    --main-color:#003060;
+    --sub-color:#ea6e48;
+    /*--color-opacity:#8e7e5d52*/
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&amp;display=swap');
 
@@ -126,7 +130,7 @@ img {
 }
 
 .header_nav {
-    background-color: #961e00;
+    background-color: var(--main-color);
     width: 100%;
     box-shadow: 0px 1px 1px #0000001f;
 }
@@ -1090,7 +1094,7 @@ h2.title {
 
     .main_footer {
             padding: 70px 0 50px;
-        background-color: #1d1d1d;
+        background-color: var(--main-color);
         color: #fbfbfbcc;
     }
     
@@ -1518,7 +1522,7 @@ a:hover {
     margin-left: 20px;
 }
 .custom_1581866095395 .item_img .author i{
-    color: #f3bb00;
+    color: var(--sub-color);
 }
 .custom_1581866095395 .item_img .author p, .custom_1581866095395 .item_img .author h4{
     margin-bottom: 0px;
@@ -1531,13 +1535,16 @@ a:hover {
     margin: 20px 0px;
 }
 /*.section312311 .container{box-shadow: 0 6px 13px rgb(145 145 145/95%); border-radius: 20px}*/
-.section31231 .text{ background: #961e00; border-radius: 20px 0px 0px 20px; color: #fff; padding: 30px }
+.section31231 .text{ background: var(--main-color); border-radius: 20px 0px 0px 20px; color: #fff; padding: 30px }
 .section31231 .text h3{ font-weight: bold; }
-.section31231 .text hr{ color: #fff; border-color: #fff }
-.section31231 .text .iteam div{ display: flex; font-size: 1.1rem; align-items: center; color: #564; margin: 20px 0px; font-size: 1.1rem }
-.section31231 .text .iteam div span{ margin-left: 15px; color: #fff; border-left: 1px solid #fff; padding-left: 15px }
+.section31231 .text p{ color: var(--sub-color) }
+.section31231 .text hr{ border-color: var(--sub-color) }
+.section31231 .text .iteam div{ display: flex; font-size: 1.1rem; align-items: center; color: var(--sub-color); font-weight: bold; margin: 20px 0px; font-size: 1.1rem }
+.section31231 .text .iteam div span{ margin-left: 15px; color: #fff; border-left: 1px solid var(--sub-color); padding-left: 15px }
 .section31231 .hotline{ display: flex; font-size: 1.6rem }
 .section31231 .hotline img{ margin-right: 15px; }
-.section31231 .form{ background: #ddd; border-radius: 0px 20px 20px 0px; padding: 30px}
+.section31231 .form{ background: #fff; border-radius: 0px 20px 20px 0px; padding: 30px}
 .section31231 .form h4{ font-weight: bold; font-size: 1.6rem; border-bottom: 1px solid #fff; padding-bottom: 10px; margin-bottom: 10px }
 .section31231 .form input{ margin: 15px 0px; padding: 20px 14px; }
+.section31231 .form button{ background: var(--main-color); color: #fff; font-weight: bold; }
+.section31231 .row{ box-shadow: 0 6px 13px rgb(145 145 145/95%); border-radius: 20px }
