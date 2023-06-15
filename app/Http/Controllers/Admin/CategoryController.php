@@ -164,8 +164,8 @@ class CategoryController extends Controller
             }
         }
 
-        return redirect()->back();
-        // return redirect('admin/category')->with('success','updated successfully');
+        // return redirect()->back();
+        return redirect('admin/category')->with('success','updated successfully');
     }
 
     /**
