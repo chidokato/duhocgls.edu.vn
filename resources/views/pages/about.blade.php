@@ -128,7 +128,7 @@
     </div>
 
 
-    <div class="column_inner" style="background: url(frontend/imgs/bg.jpg) no-repeat;">
+    <div class="column_inner" style="background: url(frontend/imgs/bg1.jpg) no-repeat;">
         <div class="container">
             <!-- <div class="inner_text">
                 <h2 class="home-title">CHỌN BLA ĐỂ XÂY DỰNG TƯƠNG LAI TƯƠI SÁNG, TẠI SAO?</h2>
