@@ -156,8 +156,8 @@ class CategoryController extends Controller
                     $Images = new Images();
                     $Images->category_id = $category->id;
                     $filename = $file->getClientOriginalName();
-                    while(file_exists("/data/category/".$filename)){$filename = rand(0,99)."_".$filename;}
-                    $file->move('/data/category', $filename);
+                    while(file_exists("data/category/".$filename)){$filename = rand(0,99)."_".$filename;}
+                    $file->move('data/category', $filename);
                     $Images->img = $filename;
                     $Images->save();
                 }
