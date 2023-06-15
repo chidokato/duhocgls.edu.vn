@@ -128,6 +128,7 @@
                           <select name="style" class="form-control">
                             <option value="">...</option>
                             <option <?php if($data->style == 1){echo "selected";} ?> value="1">Style 1</option>
+                            <option <?php if($data->style == 2){echo "selected";} ?> value="2">Style 2</option>
                           </select>
                       </div>
                   </div>

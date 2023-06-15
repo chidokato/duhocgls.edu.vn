@@ -72,6 +72,30 @@
 </section>
 @endif
 
+@if($data->Category->style == 2)
+<section class="section57">
+    <div class="container">
+        <h2>LỢI ÍCH THAM GIA CHƯƠNG TRÌNH</h2>
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-6">
+                <div class="image"><img src="frontend/imgs/5-mem.png"></div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6 text">
+                <ul>
+                    <li><img src="frontend/imgs/Asset-2.png"> <span>Miễn <strong>100% học phí</strong> trong suốt thời gian học nghề tại Đức</span></li>
+                    <li><img src="frontend/imgs/Asset-3.png"> <span>Nhận lương học nghề từ <strong>950 – 2.200 Euro/tháng</strong> ngay khi vào học. Chưa kể làm thêm</span></li>
+                    <li><img src="frontend/imgs/Asset-4.png"> <span><strong>Bằng cấp quốc tế</strong> có giá trị trên toàn cầu</span></li>
+                    <li><img src="frontend/imgs/Asset-5.png"> <span>CAM KẾT 100% có VIÊC LÀM sau tốt nghiệp. <strong>Lương 2.500-3.500 Euro/tháng</strong></span></li>
+                    <li><img src="frontend/imgs/Asset-6.png"> <span>Được học tập trong môi trường, thiết bị hiện đại, chuyên nghiệp, Công dân toàn cầu</span></li>
+                    <li><img src="frontend/imgs/Asset-7.png"> <span>Được <strong>định cư sau 05 năm</strong> học tập và làm việc tại Đức, NHẬP QUỐC TỊCH sau 8 năm</span></li>
+                    <li><img src="frontend/imgs/Asset-8.png"> <span>Tự do đi lại, khám phá 26 nước khối Schengen không cần xin visa</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+@endif
+
 <section class="main">
     <div class="container row_container">
         <div class="row">

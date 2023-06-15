@@ -91,6 +91,13 @@
 .section56 .owlCarousel123 .item .text{ font-size: 1rem }
 
 
+.section57 .image img{ width: 100% }
+.section57{ margin-top: 20px }
+.section57 ul li{ margin: 25px 0px; font-weight: bold; display: flex; font-size: 1.1rem }
+.section57 ul li img{ margin-right: 15px }
+.section57 .text{ display: flex; align-items: center; }
+.section57 ul li strong{ color: red }
+.section57 h2{ text-align: center; font-size: 1.6rem; font-weight: bold; margin-top: 30px }
 
 @media (max-width: 991px) {
 	.go_travel a img {
