@@ -62,14 +62,14 @@
 <section class="main">
     <div class="container row_container">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-8">
+            <div class="col-12 col-md-12 col-lg-12">
                 <div class="header-page">
                     <h1><span>{{$data->name}}</span></h1>
                 </div>
                 <div class="news_list">
                     <div class="row news_list-row">
                         @foreach($post as $val)
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="news_list-item">
                                     <div class="news_item-img">
                                         <a href="{{$data->category->slug}}/{{$val->post->slug}}">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-4">
+            <!-- <div class="col-12 col-md-12 col-lg-4">
                 <div class="reservation_hotel">
                     <div class="reservation_title">
                         <h5 class="reservation_title-name">
@@ -138,7 +138,7 @@
                 </div>
 
 
-            </div>
+            </div> -->
         </div>
     </div>
 
