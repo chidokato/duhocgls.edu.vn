@@ -148,7 +148,7 @@
                 <div class="row detail-img">
                     @foreach($Images as $val)
                     <div class="col-md-4" id="detail_img">
-                        <img src="data/category/{{$val->img}}">
+                        <img src="/data/category/{{$val->img}}">
                         <button type="button" onClick="delete_row(this)" id="del_img_detail"> <i class="fa fa-times" aria-hidden="true"></i> </button>
                         <input type="hidden" name="id_img_detail" id="id_img_detail" value="{{$val->id}}" />
                     </div>
