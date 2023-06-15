@@ -282,7 +282,7 @@
                             <div class="news_item-text">
                                 <div class="news_item-title">
                                     <a href="tin-tucs/4150/cho-tinh-sapa.html">
-                                        {{$posts->name}}
+                                        {{$val->name}}
                                     </a>
                                 </div>
                                 <div class="read_more">
