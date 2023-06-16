@@ -45,6 +45,24 @@
                                     <p>Đội ngũ nhân viên tại GLS hỗ trợ học viên rất nhiệt tình. Bên cạnh đó, mình cũng biết được thêm nhiều điều về nước Đức.</p>
                                 </div>
                             </div>
+
+                            <div class="iteam_row">
+                                <div class="item_img">
+                                    <img src="frontend/imgs/dangthuyhuyen.jpg">
+                                    <div class="author">
+                                        <h4>Đặng Thuý Huyền</h4>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <p>Du học sinh tại đức</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p>Mình thấy vô cùng may mắn khi lựa chọn GLS Education để cùng đồng hành trên con đường chinh phục giấc mơ Đức!</p>
+                                </div>
+                            </div>
                             
                         </div>
                     </div>
