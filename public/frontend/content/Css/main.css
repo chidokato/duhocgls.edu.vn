@@ -1548,3 +1548,117 @@ a:hover {
 .section31231 .form input{ margin: 15px 0px; padding: 20px 14px; }
 .section31231 .form button{ background: var(--main-color); color: #fff; font-weight: bold; }
 .section31231 .row{ box-shadow: 0 6px 13px rgb(145 145 145/95%); border-radius: 20px }
+.f8f8f8 {
+    background-color: #f8f8f8 !important;
+}
+.section57{
+    padding: 50px 0px;
+}
+
+
+.sec55{
+    padding: 40PX 0PX;
+}
+.sec55 .item{
+    position: relative;
+}
+.sec55 .item:before {
+    content: '';
+    display: block;
+    width: 230px;
+    height: 116px;
+    background-image: url(../../imgs/sdgbfhdbn.png);
+    position: absolute;
+    left: -55px;
+    top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.sec55 .item:after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    background-image: url(../../imgs/werrgrg.png);
+    min-width: 294px;
+    z-index: 0;
+    right: -100px;
+    top: 77px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    z-index: 1
+}
+.sec55 .item1:before{ background-image: url(../../imgs/Asset17.png); }
+.sec55 .item2:before{ background-image: url(../../imgs/dfssdfds.png); }
+.sec55 .item1:after{ background-image: url(../../imgs/3456.png); }
+.sec55 .item2:after{ background-image: url(../../imgs/dfgdfg.png); }
+
+.mainitem55 {
+    position: relative;
+    padding: 20px 0 40px;
+    background: #fff;
+    border-radius: 20px;
+    z-index: 2;
+    height: 100%;
+}
+.mainitem55:after {
+    content: '';
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    background: #002456;
+}
+.mainitem551:after{background: #fa004c;}
+.mainitem552:after{background: linear-gradient(to right,#fbaf02 0%,#f4590e 100%);}
+.sec55 .item {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 13px rgb(145 145 145/95%);
+    margin: 20px 40px;
+}
+.icon55 {
+    position: relative;
+    height: 75px;
+}
+.text55 {
+    padding: 20px 30px; height: 132px; font-size: 1.2rem
+}
+.text55 p{
+    margin-bottom: 0px;
+}
+.sec55 {
+    padding: 50px 0;
+    background-color: #e3e4e5;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec55 h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section56{ margin-top: -60px; padding-bottom: 50px }
+.section56 .owlCarousel123 .item{ display: flex; flex-direction: column; align-content: center; align-items: center; box-shadow: 0 2px 7px rgb(145 145 145/35%);padding: 10px;background: #fff;text-align: center; margin: 10px }
+.section56 .owlCarousel123 .item .icon{ border: 1px solid #ddd; border-radius: 100%; padding: 7px; margin-bottom: 10px}
+.section56 .owlCarousel123 .item .icon i{ font-size: 1.5rem; padding: 10px; background: #ddd; border-radius: 100%; }
+.section56 .owlCarousel123 .item .name{ color: red; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; height: 87px }
+.section56 .owlCarousel123 .item .text{ font-size: 1rem }
+
+.section58{ padding: 50px 0px; }
+.section58 h2{ text-align: center; font-size: 1.6rem; font-weight: bold; margin-bottom: 40px }
+.section58 .text ul{}
+.section58 .text ul li{position: relative; padding-left: 25px; margin: 6px 0px;}
+.section58 .text ul li:after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--sub-color);
+    top: 5px;
+    left: 0px;
+    border-radius: 100%;
+}

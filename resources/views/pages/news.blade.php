@@ -78,9 +78,9 @@
     </div>
 </section>
 
-<section class="section57">
+<section class="section57 f8f8f8">
     <div class="container">
-        <h2>LỢI ÍCH THAM GIA CHƯƠNG TRÌNH</h2>
+        <h2>TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
         <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
                 <div class="image"><img src="frontend/imgs/5-mem.png"></div>
@@ -100,31 +100,71 @@
     </div>
 </section>
 
-@endif
-
-@if($data->Category->style == 2)
-<section class="section57">
+<section class="section58">
     <div class="container">
-        <h2>LỢI ÍCH THAM GIA CHƯƠNG TRÌNH</h2>
+        <h2>TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
         <div class="row">
-            <div class="col-6 col-md-6 col-lg-6">
-                <div class="image"><img src="frontend/imgs/5-mem.png"></div>
-            </div>
             <div class="col-6 col-md-6 col-lg-6 text">
                 <ul>
-                    <li><img src="frontend/imgs/Asset-2.png"> <span>Miễn <strong>100% học phí</strong> trong suốt thời gian học nghề tại Đức</span></li>
-                    <li><img src="frontend/imgs/Asset-3.png"> <span>Nhận lương học nghề từ <strong>950 – 2.200 Euro/tháng</strong> ngay khi vào học. Chưa kể làm thêm</span></li>
-                    <li><img src="frontend/imgs/Asset-4.png"> <span><strong>Bằng cấp quốc tế</strong> có giá trị trên toàn cầu</span></li>
-                    <li><img src="frontend/imgs/Asset-5.png"> <span>CAM KẾT 100% có VIÊC LÀM sau tốt nghiệp. <strong>Lương 2.500-3.500 Euro/tháng</strong></span></li>
-                    <li><img src="frontend/imgs/Asset-6.png"> <span>Được học tập trong môi trường, thiết bị hiện đại, chuyên nghiệp, Công dân toàn cầu</span></li>
-                    <li><img src="frontend/imgs/Asset-7.png"> <span>Được <strong>định cư sau 05 năm</strong> học tập và làm việc tại Đức, NHẬP QUỐC TỊCH sau 8 năm</span></li>
-                    <li><img src="frontend/imgs/Asset-8.png"> <span>Tự do đi lại, khám phá 26 nước khối Schengen không cần xin visa</span></li>
+                    <li><strong>B1:</strong> Tư vấn du học nghề Đức, tham khảo hợp đồng</li>
+                    <li><strong>B2:</strong> Nộp hồ sơ cho Công ty, ký hợp đồng</li>
+                    <li><strong>B3:</strong> Bắt đầu các khoá học tiếng Đức</li>
+                    <li><strong>B4:</strong> Đăng ký thi A2 (hoặc B1), ôn thi A2 (hoặc B1)</li>
+                    <li><strong>B5:</strong> Dịch thuật, công chứng, chuẩn bị các giất tờ cần thiết</li>
+                    <li><strong>B6:</strong> Thi A2 (hoặc B1), nhận bằng A2 (hoặc B1) và hoàn thành hồ sơ xin học nghề</li>
+                    <li><strong>B7:</strong> Học chứng chỉ nền (nếu cần), bổ sung thêm các kỹ năng khác (phỏng vấn,...)</li>
+                    <li><strong>B8:</strong> Nộp hồ sơ xin học nghề và hợp đồng lao động tại nơi thực hành</li>
+                    <li><strong>B9:</strong> Mở tài khoản chứng minh tài chính (tuỳ từng ngành và trường hợp), mua bảo hiểm</li>
+                    <li><strong>B10:</strong> Đặt hẹn, nộp hồ sơ xin Visa cho Đại sứ quán</li>
+                    <li><strong>B11:</strong> Nhận kết quả Visa</li>
+                    <li><strong>B12:</strong> Đặt vé máy bay và sang Đức</li>
+                    <li><strong>B13:</strong> Đưa đón, sắp xếp chỗ ở, hỗ trợ làm các thủ tục tại Đức</li>
                 </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <div class="image"><img src="https://edugo.vn/wp-content/uploads/2022/12/du-hoc-nghe-duc-2023-e1675418561742.jpg"></div>
             </div>
         </div>
     </div>
 </section>
+
+<section class="sec55" style="background-image: url(frontend/imgs/Asset-8-1.png);background-repeat: no-repeat;">
+    <div class="container">
+        <h2>ĐIỀU KIỆN DU HỌC NGHỀ ĐỨC</h2>
+        <div class="row">
+            <div class="col-4 col-md-4 col-lg-4">
+                <div class="item">
+                    <div class="mainitem55">
+                        <div class="icon55"></div>
+                        <div class="text55"><p>Độ tuổi 18-30, Đã tốt nghiệp THPT</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
+                <div class="item item1">
+                    <div class="mainitem55 mainitem551">
+                        <div class="icon55"></div>
+                        <div class="text55"><p>Sức khỏe tốt, không mắc bệnh truyền nhiễm, không có tiền án tiền sự</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
+                <div class="item item2">
+                    <div class="mainitem55 mainitem552">
+                        <div class="icon55"></div>
+                        <div class="text55"><p>Trình độ tiếng Đức đạt A2 hoặc B1</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 @endif
+
+
 
 <section class="main">
     <div class="container row_container">

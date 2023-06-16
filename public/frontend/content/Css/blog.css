@@ -83,21 +83,15 @@
 .input_email input{
     border: 1px solid #ddd;
 }
-.section56{ margin-top: -60px }
-.section56 .owlCarousel123 .item{ display: flex; flex-direction: column; align-content: center; align-items: center; box-shadow: 0 2px 7px rgb(145 145 145/35%);padding: 10px;background: #fff;text-align: center; margin: 10px }
-.section56 .owlCarousel123 .item .icon{ border: 1px solid #ddd; border-radius: 100%; padding: 7px; margin-bottom: 10px}
-.section56 .owlCarousel123 .item .icon i{ font-size: 1.5rem; padding: 10px; background: #ddd; border-radius: 100%; }
-.section56 .owlCarousel123 .item .name{ color: red; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; height: 87px }
-.section56 .owlCarousel123 .item .text{ font-size: 1rem }
+
 
 
 .section57 .image img{ width: 100% }
-.section57{ margin-top: 40px }
 .section57 ul li{ margin: 25px 0px; font-weight: bold; display: flex; font-size: 1.1rem }
 .section57 ul li img{ margin-right: 15px }
 .section57 .text{ display: flex; align-items: center; }
 .section57 ul li strong{ color: red }
-.section57 h2{ text-align: center; font-size: 1.6rem; font-weight: bold; margin-top: 30px }
+.section57 h2{ text-align: center; font-size: 1.6rem; font-weight: bold; }
 
 @media (max-width: 991px) {
 	.go_travel a img {
