@@ -1669,7 +1669,11 @@ a:hover {
 .section156{ background: #f8f9fe; padding: 50px 0px; }
 .section156 .text ul li{display: flex; font-size: 1.2rem; margin: 15px 0px; 
     align-items: center; box-shadow: 0px 0px 0px 1px #ddd; padding: 15px;
-    border-radius: 10px; color: var(--main-color)
+    border-radius: 10px; color: var(--main-color);
+    background: #fff
 }
 .section156 .text ul li span{ font-weight: bold; font-size: 1.3rem; color: var(--sub-color) }
 .section156 .text .icon{ width: 60px; height: auto; margin-right: 20px }
+
+.section157{ padding: 50px 0px }
+.section157 ul li{ margin: 16px 0px !important; }

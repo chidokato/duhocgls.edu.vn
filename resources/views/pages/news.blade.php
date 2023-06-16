@@ -258,11 +258,25 @@
     </div>
 </section>
 
-<section class="section157">
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12">
-            <div class="header-page">
-                <h2 class="title1">TẠI SAO NÊN HỌC TIẾNG ĐỨC TẠI GLS?</h2>
+<section class="section58 section157">
+    <div class="container">
+        <h2 class="title1">TẠI SAO NÊN HỌC TIẾNG ĐỨC TẠI GLS?</h2>
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-6 text">
+                <ul>
+                    <li>Hệ thống đào tạo với môi trường học tập toàn diện.</li>
+                    <li>Chương trình học bài bản & chuyên nghiệp, lịch khai giảng liên tục hàng tháng.</li>
+                    <li>Giáo trình miễn phí khi học viên đăng ký khoá học.</li>
+                    <li>Đội ngũ giảng viên giàu kinh nghiệm giúp học viên phát âm chuẩn ngay từ trình độ cơ bản.</li>
+                    <li>Có trợ giảng chuyên môn hỗ trợ lớp học trong suốt các khoá học.</li>
+                    <li>Mô hình lớp học tối đa 10 người, đảm bảo chất lượng đào tạo.</li>
+                    <li>Học viên được tham gia học thử miễn phí, cam kết chuẩn đầu ra.</li>
+                    <li>Ký túc xá đầy đủ tiện nghi trong suốt quá trình học và làm Visa</li>
+                    <li>Học viên được tham gia các hoạt động ngoại khoá với người bản xứ.</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <div class="image"><img src="frontend/imgs/anh2.jpg"></div>
             </div>
         </div>
     </div>
@@ -353,12 +367,9 @@
             </div> -->
         </div>
     </div>
-
-    <div class="main_news">
-        <div class="container news_container">
-            
-        </div>
-    </div>
+    <div class="main_space"></div>
+    @include('pages.iteam.form')
+    
     <div class="main_space"></div>
 </section>
 
