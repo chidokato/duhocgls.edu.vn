@@ -58,8 +58,8 @@
                             </h1>
                             <div class="text">
                                 <div style="text-align:justify">
-                                    <p>Công ty Cổ phần Tư vấn Du học GLS Education được thành lập và phát triển bởi đội ngũ Co-Founder là những du học sinh đã học tập và sinh sống tại Đức hơn 10 năm. Mang trong mình dòng máu Việt kết hợp với văn hoá và tư duy nước Đức, chúng tôi trở về Việt Nam với mục tiêu chung tay xây dựng đất nước và góp phần nâng cao giá trị người Việt</p>
-                                    <p>Bắt đầu từ năm 2018, GLS đã trải qua 05 năm hình thành và phát triển từ một trung tâm dạy tiếng Đức. Cho đến nay, GLS Education tự hào là đơn vị hàng đầu trong lĩnh vực du học nghề Đức tại Việt Nam, đồng thời có mối quan hệ đối tác chiến lược rộng khắp trên toàn nước Đức, chúng tôi tin rằng có thể hỗ trợ các bạn học viên trong việc lựa chọn được vùng miền theo đúng nhu cầu của mình</p>
+                                    <p>Công ty Cổ phần Tư vấn Du học GLS Education được thành lập và phát triển bởi đội ngũ Co-Founder là những du học sinh đã học tập và sinh sống tại Đức hơn 10 năm. Mang trong mình dòng máu Việt kết hợp với văn hoá và tư duy nước Đức, chúng tôi trở về Việt Nam với mục tiêu chung tay xây dựng đất nước và góp phần nâng cao giá trị người Việt.</p>
+                                    <p>Bắt đầu từ năm 2018, GLS đã trải qua 05 năm hình thành và phát triển từ một trung tâm dạy tiếng Đức. Cho đến nay, GLS Education tự hào là đơn vị hàng đầu trong lĩnh vực du học nghề Đức tại Việt Nam, đồng thời có mối quan hệ đối tác chiến lược rộng khắp trên toàn nước Đức, chúng tôi tin rằng có thể hỗ trợ các bạn học viên trong việc lựa chọn được vùng miền theo đúng nhu cầu của mình.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                     <h3>Sứ mệnh</h3>
                                     <span></span>
                                     <div class="item_text-price">
-                                        <p>Sứ mệnh của GLS là mang đến cho cộng đồng cơ hội được học tập, sinh sống, làm việc và định cư tại Quốc gia số 1 châu  u, góp phần nâng cao và khẳng định giá trị người Việt trên thị trường quốc tế</p>
+                                        <p>Sứ mệnh của GLS là mang đến cho cộng đồng cơ hội được học tập, sinh sống, làm việc và định cư tại Quốc gia số 1 châu Âu, góp phần nâng cao và khẳng định giá trị người Việt trên thị trường quốc tế</p>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@
         <div class="container">
             <div class="row section312312">
                 <div class="col-lg-6 col-md-5">
-                    <h2>Cảm nhận của học sinh phụ huynh về GLS</h2>
+                    <h2>CẢM NHẬN CỦA HỌC SINH, PHỤ HUYNH VỀ GLS</h2>
                     <h3>KHÁCH HÀNG NÓI GÌ VỀ GLS?</h3>
                     <p>GLS với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
                 </div>

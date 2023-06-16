@@ -80,7 +80,9 @@
 
 <section class="section57 f8f8f8">
     <div class="container">
-        <h2>TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
+        <div class="header-page">
+            <h2 class="title1">TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
+        </div>
         <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
                 <div class="image"><img src="frontend/imgs/anh3.jpg"></div>
@@ -204,6 +206,67 @@
     </div>
 </section>
 
+<section class="section156">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="header-page">
+                    <h2 class="title1">HỌC VIÊN ĐƯỢC GÌ SAU 02 TUẦN HỌC THỬ MIỄN PHÍ TẠI GLS?</h2>
+                </div>
+            </div>
+        
+            <div class="col-6 col-md-6 col-lg-6 img">
+                <img src="frontend/imgs/anh1.jpg">
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <div class="text">
+                    <ul>
+                        <li>
+                            <img class="icon" src="frontend/imgs/giangvien.png">
+                            <div>
+                                <span>Giảng viên</span><br>Học cùng đội ngũ giảng viên giàu kinh nghiệm
+                            </div>
+                        </li>
+                        <li>
+                            <img class="icon" src="frontend/imgs/kienthuc.png">
+                            <div>
+                                <span>Kiến thức</span><br>Nắm vững kiến thức tiếng Đức cơ bản & giao tiếp hàng ngày
+                            </div>
+                        </li>
+                        <li>
+                            <img class="icon" src="frontend/imgs/phuongphap.png">
+                            <div>
+                                <span>Phương pháp</span><br>Phương pháp và môi trường học đa dạng & thú vị
+                            </div>
+                        </li>
+                        <li>
+                            <img class="icon" src="frontend/imgs/ngoaikhoa.png">
+                            <div>
+                                <span>Hoạt động ngoại khóa</span><br>Được tham gia các hoạt động ngoại khoá để tìm hiểu về văn hoá Đức
+                            </div>
+                        </li>
+                        <li>
+                            <img class="icon" src="frontend/imgs/cohoi.png">
+                            <div>
+                                <span>Cơ hội</span><br>Nắm được tất cả thông tin cơ bản về các cơ hội khi đi du học tại Đức
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section157">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12">
+            <div class="header-page">
+                <h2 class="title1">TẠI SAO NÊN HỌC TIẾNG ĐỨC TẠI GLS?</h2>
+            </div>
+        </div>
+    </div>
+</section>
 
 @endif
 

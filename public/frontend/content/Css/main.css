@@ -1662,5 +1662,14 @@ a:hover {
     left: 0px;
     border-radius: 100%;
 }
-.title1{ text-align: center; border-bottom: none !important; text-transform: uppercase; font-weight: bold; margin-bottom: 20px }
+.title1{ text-align: center; border-bottom: none !important; text-transform: uppercase; font-weight: bold; margin-bottom: 30px }
 .title1 span:after{ content: none !important }
+.section156 .img{ display: flex; align-items: center; }
+.section156 .img img{ width: 100%; }
+.section156{ background: #f8f9fe; padding: 50px 0px; }
+.section156 .text ul li{display: flex; font-size: 1.2rem; margin: 15px 0px; 
+    align-items: center; box-shadow: 0px 0px 0px 1px #ddd; padding: 15px;
+    border-radius: 10px; color: var(--main-color)
+}
+.section156 .text ul li span{ font-weight: bold; font-size: 1.3rem; color: var(--sub-color) }
+.section156 .text .icon{ width: 60px; height: auto; margin-right: 20px }
