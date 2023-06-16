@@ -57,7 +57,7 @@
                 <div class="icon">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
                 </div>
-                <div class="name">Ra trường có việc làm ngay, thu nhập lên tới 80.000.000 VNĐ/tháng </div>
+                <div class="name">Thu nhập ra trường lên tới 80.000.000 VNĐ/tháng </div>
                 <!-- <div class="text">Chính phủ Đức tài trợ 100% toàn bộ chi phí học tập cho sinh viên trong suốt thời gian học nghề tại Đức</div> -->
             </div>
             <div class="item">
@@ -102,7 +102,7 @@
 
 <section class="section58">
     <div class="container">
-        <h2>TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
+        <h2>LỘ TRÌNH DU HỌC NGHỀ ĐỨC TẠI GLS</h2>
         <div class="row">
             <div class="col-6 col-md-6 col-lg-6 text">
                 <ul>
