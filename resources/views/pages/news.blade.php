@@ -83,7 +83,7 @@
         <h2>TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
         <div class="row">
             <div class="col-6 col-md-6 col-lg-6">
-                <div class="image"><img src="frontend/imgs/5-mem.png"></div>
+                <div class="image"><img src="frontend/imgs/anh3.jpg"></div>
             </div>
             <div class="col-6 col-md-6 col-lg-6 text">
                 <ul>
@@ -122,7 +122,7 @@
                 </ul>
             </div>
             <div class="col-6 col-md-6 col-lg-6">
-                <div class="image"><img src="https://edugo.vn/wp-content/uploads/2022/12/du-hoc-nghe-duc-2023-e1675418561742.jpg"></div>
+                <div class="image"><img src="frontend/imgs/anh2.jpg"></div>
             </div>
         </div>
     </div>
