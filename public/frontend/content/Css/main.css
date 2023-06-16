@@ -1662,4 +1662,5 @@ a:hover {
     left: 0px;
     border-radius: 100%;
 }
-.text-center{ text-align: center; }
+.title1{ text-align: center; border-bottom: none !important; text-transform: uppercase; font-weight: bold; margin-bottom: 20px }
+.title1 span:after{ content: none !important }
