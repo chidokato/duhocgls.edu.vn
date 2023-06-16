@@ -171,7 +171,7 @@
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="header-page">
-                    <h1><span>{{$data->name}}</span></h1>
+                    <h1 class="{{ $data->Category->style > 0 ? 'text-center':'' }}"><span>{{$data->name}}</span></h1>
                 </div>
                 <div class="news_list">
                     <div class="row news_list-row">
