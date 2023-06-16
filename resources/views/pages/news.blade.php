@@ -367,10 +367,9 @@
             </div> -->
         </div>
     </div>
-    <div class="main_space"></div>
+    
     @include('pages.iteam.form')
     
-    <div class="main_space"></div>
 </section>
 
 @endsection

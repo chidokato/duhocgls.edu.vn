@@ -1,4 +1,4 @@
-<div class="column_inner section312311">
+<div class="column_inner section312311 f8f8f8">
         <div class="container">
             <div style="background: url(frontend/imgs/fff1.png) no-repeat center; background-size: cover; padding: 50px 100px;">
                 <div class="section31231">
