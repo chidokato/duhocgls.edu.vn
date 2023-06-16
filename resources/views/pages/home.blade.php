@@ -209,57 +209,10 @@
             </div>
         </div>
     </div>
-    <div class="column_inner">
-        <div class="container">
-            <div class="row section312312">
-                <div class="col-lg-6 col-md-5">
-                    <h2>CẢM NHẬN CỦA HỌC SINH, PHỤ HUYNH VỀ GLS</h2>
-                    <h3>KHÁCH HÀNG NÓI GÌ VỀ GLS?</h3>
-                    <p>GLS với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
-                </div>
-                <div class="col-lg-6 col-md-7">
-                    <div class="custom_1581866095395">
-                        <div class="carousel_lod--list1 owl-carousel">
-                            <div class="iteam_row">
-                                <div class="item_img">
-                                    <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
-                                    <div class="author">
-                                        <h4>Lê Bích Phượng</h4>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <p>Du học sinh tại đức</p>
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức</p>
-                                </div>
-                            </div>
-                            <div class="iteam_row">
-                                <div class="item_img">
-                                    <img src="https://bla.vn/wp-content/uploads/2020/03/NhuQuynh-120x120.png">
-                                    <div class="author">
-                                        <h4>Lê Bích Phượng</h4>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <p>Du học sinh tại đức</p>
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <p>BLA vừa tuyệt vời vừa rất đáng tin cậy. Ở đây tôi đã học được rất nhiều điều tuyệt vời về nước Đức</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    @include('pages.iteam.customer')
+
+    
 
     
 
