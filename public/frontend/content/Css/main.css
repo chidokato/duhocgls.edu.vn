@@ -1568,7 +1568,7 @@ a:hover {
     display: block;
     width: 230px;
     height: 116px;
-    background-image: url(../../imgs/sdgbfhdbn.png);
+    background-image: url(../../imgs/dk11.png);
     position: absolute;
     left: -55px;
     top: 30px;
@@ -1580,7 +1580,7 @@ a:hover {
     content: '';
     position: absolute;
     height: 70px;
-    background-image: url(../../imgs/werrgrg.png);
+    background-image: url(../../imgs/dk12.png);
     min-width: 294px;
     z-index: 0;
     right: -100px;
@@ -1590,10 +1590,10 @@ a:hover {
     background-position: right;
     z-index: 1
 }
-.sec55 .item1:before{ background-image: url(../../imgs/Asset17.png); }
-.sec55 .item2:before{ background-image: url(../../imgs/dfssdfds.png); }
-.sec55 .item1:after{ background-image: url(../../imgs/3456.png); }
-.sec55 .item2:after{ background-image: url(../../imgs/dfgdfg.png); }
+.sec55 .item1:before{ background-image: url(../../imgs/dk21.png); }
+.sec55 .item2:before{ background-image: url(../../imgs/dk31.png); }
+.sec55 .item1:after{ background-image: url(../../imgs/dk22.png); }
+.sec55 .item2:after{ background-image: url(../../imgs/dk32.png); }
 
 .mainitem55 {
     position: relative;
@@ -1611,8 +1611,8 @@ a:hover {
     bottom: 15px;
     background: #002456;
 }
-.mainitem551:after{background: #fa004c;}
-.mainitem552:after{background: linear-gradient(to right,#fbaf02 0%,#f4590e 100%);}
+.mainitem551:after{background: #ea6e48;}
+.mainitem552:after{background: linear-gradient(to right,#f5f4f3 0%,#ecedea 100%);}
 .sec55 .item {
     background: #fff;
     border-radius: 20px;
@@ -1646,7 +1646,7 @@ a:hover {
 .section56 .owlCarousel123 .item{ display: flex; flex-direction: column; align-content: center; align-items: center; box-shadow: 0 2px 7px rgb(145 145 145/35%);padding: 10px;background: #fff;text-align: center; margin: 10px }
 .section56 .owlCarousel123 .item .icon{ border: 1px solid #ddd; border-radius: 100%; padding: 7px; margin-bottom: 10px}
 .section56 .owlCarousel123 .item .icon i{ font-size: 1.5rem; padding: 10px; background: #ddd; border-radius: 100%; }
-.section56 .owlCarousel123 .item .name{ color: red; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; height: 87px }
+.section56 .owlCarousel123 .item .name{ color: var(--sub-color); font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; height: 87px }
 .section56 .owlCarousel123 .item .text{ font-size: 1rem }
 
 .section58{ padding: 50px 0px; }

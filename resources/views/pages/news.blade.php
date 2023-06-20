@@ -89,13 +89,13 @@
             </div>
             <div class="col-6 col-md-6 col-lg-6 text">
                 <ul>
-                    <li><img src="frontend/imgs/Asset-2.png"> <span>Miễn <strong>100% học phí</strong> trong suốt thời gian học nghề tại Đức</span></li>
-                    <li><img src="frontend/imgs/Asset-3.png"> <span>Nhận lương học nghề từ <strong>950 – 2.200 Euro/tháng</strong> ngay khi vào học. Chưa kể làm thêm</span></li>
-                    <li><img src="frontend/imgs/Asset-4.png"> <span><strong>Bằng cấp quốc tế</strong> có giá trị trên toàn cầu</span></li>
-                    <li><img src="frontend/imgs/Asset-5.png"> <span>CAM KẾT 100% có VIÊC LÀM sau tốt nghiệp. <strong>Lương 2.500-3.500 Euro/tháng</strong></span></li>
-                    <li><img src="frontend/imgs/Asset-6.png"> <span>Được học tập trong môi trường, thiết bị hiện đại, chuyên nghiệp, Công dân toàn cầu</span></li>
-                    <li><img src="frontend/imgs/Asset-7.png"> <span>Được <strong>định cư sau 05 năm</strong> học tập và làm việc tại Đức, NHẬP QUỐC TỊCH sau 8 năm</span></li>
-                    <li><img src="frontend/imgs/Asset-8.png"> <span>Tự do đi lại, khám phá 26 nước khối Schengen không cần xin visa</span></li>
+                    <li><img src="frontend/imgs/Asset-2.png"> <span>Miễn <strong>100% học phí</strong> và cơ hội nhận học bổng giá trị</span></li>
+                    <li><img src="frontend/imgs/Asset-3.png"> <span>Nhận lương trong quá trình học lên tới <strong>35.000.000 VNĐ/tháng</strong> (chưa kể làm thêm)</span></li>
+                    <li><img src="frontend/imgs/Asset-4.png"> <span><strong>Định cư sau 05 năm</strong> học tập và làm việc</span></li>
+                    <li><img src="frontend/imgs/Asset-5.png"> <span>Cam kết ra trường có việc làm ngay, thu nhập lên tới <strong>80.000.000 VNĐ/tháng</strong></span></li>
+                    <li><img src="frontend/imgs/Asset-6.png"> <span>Chương trình học đa dạng, chất lượng cao</span></li>
+                    <li><img src="frontend/imgs/Asset-7.png"> <span>Bằng cấp quốc tế có <strong>giá trị trên toàn cầu</strong></span></li>
+                    <li><img src="frontend/imgs/Asset-8.png"> <span>Tự do <strong>đi lại khắp châu Âu</strong> không cần xin Visa</span></li>
                 </ul>
             </div>
         </div>

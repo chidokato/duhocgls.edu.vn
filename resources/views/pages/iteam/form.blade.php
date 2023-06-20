@@ -5,16 +5,16 @@
                     <div class="row">
                         <div class="col-md-6 text">
                             <h3>ĐĂNG KÝ NGAY HÔM NAY</h3>
-                            <p>Để hưởng ưu đãi 60 triệu trong tháng này</p>
+                            <p>Để hưởng ưu đãi 50 triệu trong tháng này</p>
                             <hr>
                             <div class="iteam">
-                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                                <div>TẶNG<span>Ký túc xá miễn phí trong thời gian học tiếng (20 triệu)</span></div>
                             </div>
                             <div class="iteam">
-                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                                <div>TẶNG<span>Gói giáo trình học bài bản (10 triệu)</span></div>
                             </div>
                             <div class="iteam">
-                                <div>TẶNG<span>Tặng 9 tháng Ký Túc Xá miễn phí trong thời gian học tiếng. Trị giá 10 triệu</span></div>
+                                <div>TẶNG<span>Học bổng trị giá xét giảm dựa trên điểm trung bình lớp 12 (20 triệu)</span></div>
                             </div>
                             <div class="hotline">
                                 <img src="frontend/imgs/gggg.png">
