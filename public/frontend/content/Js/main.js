@@ -92,6 +92,25 @@ $('.carousel_lod--list1').owlCarousel({
     }
 })
 
+$('.section3123').owlCarousel({
+    loop: true,
+    nav: true,
+    dots: false,
+    margin: 20,
+    navText: ["<i class='fal fa-angle-left'></i>", "<i class='fal fa-angle-right'></i>"],
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        1000: {
+            items: 4,
+        }
+    }
+})
+
 $('.service-slide').owlCarousel({
     loop: true,
     autoplay: true,

@@ -18,7 +18,7 @@
                             </div>
                             <div class="hotline">
                                 <img src="frontend/imgs/gggg.png">
-                                <div>Hotline: 0966 504 334</div>
+                                <div>Hotline: {{$setting->hotline}}</div>
                             </div>
                         </div>
                         <div class="col-md-6 form">
