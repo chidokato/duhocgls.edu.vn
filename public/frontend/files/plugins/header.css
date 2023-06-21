@@ -65,6 +65,6 @@ nav{width:100%;}
 #cssmenu .submenu-button.submenu-opened:before{display:none}
 #cssmenu ul ul ul li.active a{border-left:none}
 #cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
-#cssmenu ul{ position: absolute; width: 100%; z-index: 999; background: #961e00; }
+#cssmenu ul{ position: absolute; width: 100%; z-index: 999; background: var(--main-color); }
 
 #cssmenu > ul > li.icon-seach a{ border-left: 1px solid #fff !important }

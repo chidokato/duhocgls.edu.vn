@@ -9,7 +9,7 @@
     <meta name="keywords" itemprop="keywords" content="@yield('keywords')" />
     <meta name="news_keywords" content="@yield('keywords')" />
     <meta name="robots" content="@yield('robots')"/>
-    <link rel="shortcut icon" href="data/home/{{$setting->favicon}}" />
+    <link rel="shortcut icon" href="data/home/{{$setting->Setting->favicon}}" />
     <link rel="canonical" href="@yield('url')"/>
     <link rel="alternate" href="{{asset('')}}" hreflang="vi-vn" />
     <!-- and seo -->
@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/menu.css">
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/header.css">
+    <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/responsive.css">
     @yield('css')
 
 </head>
