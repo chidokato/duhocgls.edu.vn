@@ -1,12 +1,12 @@
 <div class="column_inner">
         <div class="container">
             <div class="row section312312">
-                <div class="col-lg-6 col-md-5">
+                <div class="col-lg-6 col-md-12">
                     <h2>CẢM NHẬN CỦA HỌC SINH, PHỤ HUYNH VỀ GLS</h2>
                     <h3>KHÁCH HÀNG NÓI GÌ VỀ GLS?</h3>
                     <p>GLS với hệ thống chi nhánh văn phòng trên toàn quốc, cung cấp thông tin chính xác và kịp thời. Đội ngũ nhân viên chuyên nghiệp, thân thiện, trung thực, phương châm "Phụng sự khách hàng như người thân".</p>
                 </div>
-                <div class="col-lg-6 col-md-7">
+                <div class="col-lg-6 col-md-12">
                     <div class="custom_1581866095395">
                         <div class="carousel_lod--list1 owl-carousel">
                             

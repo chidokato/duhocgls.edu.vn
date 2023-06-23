@@ -203,9 +203,6 @@
     </div>
     
     @include('pages.iteam.customer')
-
-    
-
     
 
     <div class="main_news f8f8f8">

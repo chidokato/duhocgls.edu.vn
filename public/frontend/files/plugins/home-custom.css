@@ -127,7 +127,7 @@
 .column_inner .home-about .item_img i:after{ border: 2px solid #fff; }
 .column_inner .home-about .item_text span{ background: #fff; }
 .section3123 .item_text{ border:1px solid #fff; text-align: center; border-radius: 5px; padding-top: 20px }
-.section3123 .item_text img{ width: 110px; margin-bottom: 15px }
+.section3123 .item_text img{ width: 110px; margin: auto; margin-bottom: 15px }
 .section3123 .item_text h5{ font-size: 3rem; font-weight: bold; }
 .section3123 .item_text p{ width: 100%; border-top: 1px solid #fff; color: #fff; padding-top: 10px; font-weight: bold; height: 60px }
 .custom_1581866095395 .item_img {

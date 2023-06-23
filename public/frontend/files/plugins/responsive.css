@@ -1,8 +1,9 @@
 @media(max-width:768px){
-
+	.main_hotel .text_name{ height: 340px; overflow: auto; }
+	.main_lodging{ padding: 40px 0px !important; }
 }
 
 @media(max-width:414px){
 	.header_banner .owl-carousel img{ height: 170px }
-	.main_hotel{ padding: 40px 0px }
+	.main_hotel{ padding: 40px 0px !important }
 }

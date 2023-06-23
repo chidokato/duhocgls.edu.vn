@@ -134,36 +134,27 @@
                 <h2 class="home-title">CHỌN BLA ĐỂ XÂY DỰNG TƯƠNG LAI TƯƠI SÁNG, TẠI SAO?</h2>
                 <div class="heading__line"></div>
             </div> -->
-            <div class="row section3123">
-                <div class="col-lg-3 col-md-3">
-                    <div class="item_text">
-                        <img src="frontend/imgs/88888.png">
-                        <h5 class="color_fff">100%</h5>
-                        <p>Tỷ lệ học viên đỗ Visa</p>
-                    </div>
+            <div class="owl-carousel section3123">
+                <div class="item_text">
+                    <img src="frontend/imgs/88888.png">
+                    <h5 class="color_fff">100%</h5>
+                    <p>Tỷ lệ học viên đỗ Visa</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="item_text">
-                        <img src="frontend/imgs/8888877.png">
-                        <h5 class="color_fff"> > 90% </h5>
-                        <p>Tỷ lệ học viên đỗ B1</p>
-                    </div>
+                <div class="item_text">
+                    <img src="frontend/imgs/8888877.png">
+                    <h5 class="color_fff"> > 90% </h5>
+                    <p>Tỷ lệ học viên đỗ B1</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="item_text">
-                        <img src="frontend/imgs/886.png">
-                        <h5 class="color_fff">800+</h5>
-                        <p>Học viên theo học tiếng Đức mỗi năm</p>
-                    </div>
+                <div class="item_text">
+                    <img src="frontend/imgs/886.png">
+                    <h5 class="color_fff">800+</h5>
+                    <p>Học viên theo học tiếng Đức mỗi năm</p>
                 </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="item_text">
-                        <img src="frontend/imgs/85.png">
-                        <h5 class="color_fff">500+</h5>
-                        <p>Hồ sơ Visa kết nối các học viên sang Đức thành công</p>
-                    </div>
+                <div class="item_text">
+                    <img src="frontend/imgs/85.png">
+                    <h5 class="color_fff">500+</h5>
+                    <p>Hồ sơ Visa kết nối các học viên sang Đức thành công</p>
                 </div>
-                
             </div>
         </div>
     </div>
