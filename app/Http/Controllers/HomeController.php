@@ -49,23 +49,6 @@ class HomeController extends Controller
         ));
     }
 
-    public function about()
-    {
-        $locale = App::currentLocale();
-        $setting = SettingTranslation::where('locale', $locale)->first();
-        $category = CategoryTranslation::join('categories', 'categories.id', '=', 'category_translations.category_id')
-            ->where('locale', $locale)
-            ->where('parent', 0)
-            ->select('category_translations.*')->orderBy('categories.view', 'asc')->get();
-        // end
-        $slider = SliderTranslation::where('locale', $locale)->get();
-        return view('pages.about', compact(
-            'category',
-            'setting',
-            'slider',
-        ));
-    }
-
     public function contact()
     {
         $locale = App::currentLocale();
@@ -121,7 +104,17 @@ class HomeController extends Controller
                 'setting',
                 'images',
             ));
+        }elseif ($data->category->sort_by == 'Page') {
+            if ($slug = 'gioithieu') {
+                $slider = SliderTranslation::where('locale', $locale)->get();
+                return view('pages.about', compact(
+                    'category',
+                    'setting',
+                    'slider',
+                ));
+            }
         }
+
     }
 
     public function post($catslug, $slug)
