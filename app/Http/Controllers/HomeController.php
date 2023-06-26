@@ -108,6 +108,7 @@ class HomeController extends Controller
             if ($slug = 'gioithieu') {
                 $slider = SliderTranslation::where('locale', $locale)->get();
                 return view('pages.about', compact(
+                    'data',
                     'category',
                     'setting',
                     'slider',
