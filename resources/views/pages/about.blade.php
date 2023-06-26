@@ -1,7 +1,7 @@
 @extends('layout.index')
 
-@section('title')  @endsection
-@section('description')  @endsection
+@section('title') {{$data->title ? $data->title : $data->name}} @endsection
+@section('description') {{$data->description}} @endsection
 @section('robots') index, follow @endsection
 @section('url'){{asset('')}}@endsection
 
