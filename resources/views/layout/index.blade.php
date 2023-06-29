@@ -37,6 +37,7 @@
     
     <!--Link css page index-->
     <link href="{{asset('')}}frontend/content/Css/main.css" rel="stylesheet" />
+    <link href="{{asset('')}}frontend/content/Css/hotline.css" rel="stylesheet" />
     <link href="{{asset('')}}frontend/content/Css/responsive.css" rel="stylesheet" />
     <link href="{{asset('')}}frontend/content/Css/room.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('')}}frontend/files/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
@@ -64,6 +65,40 @@
 @yield('content')
 
 @include('layout.footer')
+
+<div class="hotline-phone-ring-wrap">
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="tel:{{$setting->hotline}}" class="pps-btn-img">
+            <img src="frontend/imgs/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+    </div>
+    <!-- <div class="hotline-bar">
+        <a href="tel:0987654321">
+            <span class="text-hotline">0987.654.321</span>
+        </a>
+    </div> -->
+</div>
+
+<div class="hotline-phone-ring-wrap hotline-phone-ring-wrap1">
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a target="_blank"  href="https://chat.zalo.me/?phone={{$setting->hotline}}" class="pps-btn-img">
+            <img src="frontend/imgs/zalo-icon.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+    </div>
+    <!-- <div class="hotline-bar">
+        <a href="tel:0987654321">
+            <span class="text-hotline">0987.654.321</span>
+        </a>
+    </div> -->
+</div>
 
 <!-- Vendor JS files -->
     <script src="frontend/content/Js/jquery-3.5.1.min.js"></script>
