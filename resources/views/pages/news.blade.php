@@ -134,23 +134,21 @@
     <div class="container">
         <h2>ĐIỀU KIỆN DU HỌC NGHỀ ĐỨC</h2>
         <div class="row">
-            <div class="col-4 col-md-4 col-lg-4">
+            <div class="carousel_lod--list owl-carousel">
                 <div class="item">
                     <div class="mainitem55">
                         <div class="icon55"></div>
                         <div class="text55"><p>Độ tuổi 18-30, Đã tốt nghiệp THPT</p></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4">
+            
                 <div class="item item1">
                     <div class="mainitem55 mainitem551">
                         <div class="icon55"></div>
                         <div class="text55"><p>Sức khỏe tốt, không mắc bệnh truyền nhiễm, không có tiền án tiền sự</p></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4">
+            
                 <div class="item item2">
                     <div class="mainitem55 mainitem552">
                         <div class="icon55"></div>
