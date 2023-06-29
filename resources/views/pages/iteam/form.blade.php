@@ -1,9 +1,9 @@
 <div class="column_inner section312311 f8f8f8">
         <div class="container">
-            <div style="background: url(frontend/imgs/fff1.png) no-repeat center; background-size: cover; padding: 50px 100px;">
+            <div class="background" style="background: url(frontend/imgs/fff1.png) no-repeat center; background-size: cover; ">
                 <div class="section31231">
                     <div class="row">
-                        <div class="col-md-6 text">
+                        <div class="col-lg-6 col-md-12 text">
                             <h3>ĐĂNG KÝ NGAY HÔM NAY</h3>
                             <p>Để hưởng ưu đãi 50 triệu trong tháng này</p>
                             <hr>
@@ -21,7 +21,7 @@
                                 <div>Hotline: {{$setting->hotline}}</div>
                             </div>
                         </div>
-                        <div class="col-md-6 form">
+                        <div class="col-lg-6 col-md-12 form">
                             <h4>ĐĂNG KÝ NGAY HÔM NAY ĐỂ NHẬN TƯ VẤN MIỄN PHÍ!</h4>
                             <form action="" method="POST">
                                 <input type="text" class="form-control" name="" placeholder="Họ & Tên">

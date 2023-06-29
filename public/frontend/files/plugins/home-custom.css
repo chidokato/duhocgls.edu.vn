@@ -1,5 +1,5 @@
 .home-about{
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 }
 .home-about .item_img{
 	text-align: center;
@@ -152,4 +152,4 @@
 .section23489234 .info h6 a{ color: #fff }
 .section23489234 .iteam img.icon{ position: absolute; top: -48px ; left: 10px}
 .section312312 h3{ color: var(--main-color) }
-
+.section312311 .background{ padding: 50px 100px; }

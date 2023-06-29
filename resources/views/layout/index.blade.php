@@ -53,9 +53,8 @@
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/menu.css">
     <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/header.css">
-    <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/responsive.css">
     @yield('css')
-
+    <link rel="stylesheet" href="{{asset('')}}frontend/files/plugins/responsive.css">
 </head>
 
 <body>

@@ -33,8 +33,22 @@
         <a class="nav-link" href="{{route('slider.index')}}"><i class="fas fa-fw fa-chart-area"></i><span>Slider</span></a>
     </li> 
     <li class="nav-item">
-        <a class="nav-link" href="{{route('setting.index')}}"><i class="fas fa-fw fa-chart-area"></i><span>Cầu hình</span></a>
-    </li> 
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#giaydep"
+            aria-expanded="true" aria-controls="giaydep">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Cầu hình</span>
+        </a>
+        <div id="giaydep" class="collapse" aria-labelledby="headingUtilities"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{route('setting.index')}}">Thông tin trên web</a>
+                <a class="collapse-item" href="">Cấu hình nội dung</a>
+                <a class="collapse-item" href="admin/banhang/list">Bán hàng</a>
+                <a class="collapse-item" href="admin/giaydep/list">option</a>
+            </div>
+        </div>
+    </li>
+
     <!-- <li class="nav-item">
         <a class="nav-link" href="admin/messages/list"><i class="fas fa-fw fa-chart-area"></i><span>Messages</span></a>
     </li> -->

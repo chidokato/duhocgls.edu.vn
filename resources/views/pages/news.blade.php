@@ -84,10 +84,10 @@
             <h2 class="title1">TẠI SAO NÊN CHỌN DU HỌC NGHỀ ĐỨC TẠI GLS?</h2>
         </div>
         <div class="row">
-            <div class="col-6 col-md-6 col-lg-6">
+            <div class="col-6 col-md-12 col-lg-6">
                 <div class="image"><img src="frontend/imgs/anh3.jpg"></div>
             </div>
-            <div class="col-6 col-md-6 col-lg-6 text">
+            <div class="col-6 col-md-12 col-lg-6 text">
                 <ul>
                     <li><img src="frontend/imgs/Asset-2.png"> <span>Miễn <strong>100% học phí</strong> và cơ hội nhận học bổng giá trị</span></li>
                     <li><img src="frontend/imgs/Asset-3.png"> <span>Nhận lương trong quá trình học lên tới <strong>35.000.000 VNĐ/tháng</strong> (chưa kể làm thêm)</span></li>
@@ -106,7 +106,7 @@
     <div class="container">
         <h2>LỘ TRÌNH DU HỌC NGHỀ ĐỨC TẠI GLS</h2>
         <div class="row">
-            <div class="col-6 col-md-6 col-lg-6 text">
+            <div class="col-6 col-md-12 col-lg-6 text">
                 <ul>
                     <li><strong>B1:</strong> Tư vấn du học nghề Đức, tham khảo hợp đồng</li>
                     <li><strong>B2:</strong> Nộp hồ sơ cho Công ty, ký hợp đồng</li>
@@ -123,7 +123,7 @@
                     <li><strong>B13:</strong> Đưa đón, sắp xếp chỗ ở, hỗ trợ làm các thủ tục tại Đức</li>
                 </ul>
             </div>
-            <div class="col-6 col-md-6 col-lg-6">
+            <div class="col-6 col-md-12 col-lg-6">
                 <div class="image"><img src="frontend/imgs/anh2.jpg"></div>
             </div>
         </div>
@@ -215,10 +215,10 @@
                 </div>
             </div>
         
-            <div class="col-6 col-md-6 col-lg-6 img">
+            <div class="col-lg-6 col-md-12 img">
                 <img src="frontend/imgs/anh1.jpg">
             </div>
-            <div class="col-6 col-md-6 col-lg-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="text">
                     <ul>
                         <li>
@@ -262,7 +262,7 @@
     <div class="container">
         <h2 class="title1">TẠI SAO NÊN HỌC TIẾNG ĐỨC TẠI GLS?</h2>
         <div class="row">
-            <div class="col-6 col-md-6 col-lg-6 text">
+            <div class="col-lg-6 col-md-12 text">
                 <ul>
                     <li>Hệ thống đào tạo với môi trường học tập toàn diện.</li>
                     <li>Chương trình học bài bản & chuyên nghiệp, lịch khai giảng liên tục hàng tháng.</li>
@@ -275,7 +275,7 @@
                     <li>Học viên được tham gia các hoạt động ngoại khoá với người bản xứ.</li>
                 </ul>
             </div>
-            <div class="col-6 col-md-6 col-lg-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="image"><img src="frontend/imgs/anh2.jpg"></div>
             </div>
         </div>
