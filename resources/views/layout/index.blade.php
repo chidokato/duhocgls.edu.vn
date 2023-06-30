@@ -88,7 +88,7 @@
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
         <div class="hotline-phone-ring-img-circle">
-        <a target="_blank"  href="https://zalo.me/{{$setting->hotline}}" class="pps-btn-img">
+        <a target="_blank"  href="https://zalo.me/{{$setting->zalo}}" class="pps-btn-img">
             <img src="frontend/imgs/zalo-icon.png" alt="Gọi điện thoại" width="50">
         </a>
         </div>
