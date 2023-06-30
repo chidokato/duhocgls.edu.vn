@@ -10,6 +10,7 @@
 	.section312311 .container{ padding: 0px }
 	.section57 ul li {margin: 11px 0px;}
 	.section57 ul li img {height: 23px;width: 23px;}
+	
 }
 
 @media(max-width:414px){
@@ -24,4 +25,5 @@
 	.title1{ font-size: 1.4rem; }
 	.section157 ul li {margin: 12px 0px !important;}
 	.section57 ul li {font-size: 1rem;}
+	.section56 {margin-top: -10px;}
 }
