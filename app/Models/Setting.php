@@ -18,6 +18,7 @@ class Setting extends Model
         'name',
         'address',
         'hotline',
+        'zalo',
         'email',
         'facebook',
         'youtube',

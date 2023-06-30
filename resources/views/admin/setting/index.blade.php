@@ -98,6 +98,12 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label>Zalo</label>
+                            <input value="{{$data->zalo}}" name="zalo" placeholder="..." type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
                             <label>email</label>
                             <input value="{{$data->email}}" name="email" placeholder="..." type="text" class="form-control">
                         </div>

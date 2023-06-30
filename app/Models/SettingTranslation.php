@@ -14,6 +14,7 @@ class SettingTranslation extends Model
         'name',
         'address',
         'hotline',
+        'zalo',
         'email',
         'facebook',
         'youtube',
