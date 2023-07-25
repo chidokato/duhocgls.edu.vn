@@ -75,7 +75,9 @@ Route::middleware(['auth'])->group(function () {
         Route::resource('users',UserController::class);
 
         Route::group(['prefix'=>'section'],function(){
-            Route::get('index/{pid}', [SectionController::class, 'index']);
+            Route::get('add', [SectionController::class, 'store']);
+            Route::get('{string}', [SectionController::class, 'index']);
+            Route::POST('update/{id}', [SectionController::class, 'update']);
         });
     });
 });

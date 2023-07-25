@@ -149,8 +149,8 @@
                     </div>
                 </div>
             
-                <div class="item item2">
-                    <div class="mainitem55 mainitem552">
+                <div class="item ">
+                    <div class="mainitem55 ">
                         <div class="icon55"></div>
                         <div class="text55"><p>Trình độ tiếng Đức đạt A2 hoặc B1</p></div>
                     </div>

@@ -42,9 +42,7 @@
             data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" href="{{route('setting.index')}}">Thông tin trên web</a>
-                <a class="collapse-item" href="">Cấu hình nội dung</a>
-                <a class="collapse-item" href="admin/banhang/list">Bán hàng</a>
-                <a class="collapse-item" href="admin/giaydep/list">option</a>
+                <a class="collapse-item" href="admin/section/gioithieu">Cấu hình nội dung</a>
             </div>
         </div>
     </li>

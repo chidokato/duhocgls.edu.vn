@@ -26,4 +26,9 @@ class Section extends Model
     	'user_id', 
         'status', 
     ];
+
+    public function SectionTranslation()
+    {
+        return $this->hasMany(SectionTranslation::class, 'section_id', 'id');
+    }
 }

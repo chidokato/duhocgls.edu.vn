@@ -18,4 +18,9 @@ class SectionTranslation extends Model
     	'post_id',
     	'view',
     ];
+
+    public function Section()
+    {
+        return $this->hasOne(Section::class, 'id', 'section_id');
+    }
 }
